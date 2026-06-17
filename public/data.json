@@ -1,0 +1,165 @@
+{
+	"lastUpdated": "2026-06-17T12:00:00Z",
+	"groups": {
+		"A": ["BRA", "CRO", "CMR", "SRB"],
+		"B": ["ARG", "MEX", "POL", "KSA"]
+	},
+	"teams": {
+		"BRA": {
+			"id": "BRA",
+			"name": "Brazil",
+			"group": "A",
+			"status": "active",
+			"stats": {
+				"played": 3,
+				"won": 3,
+				"drawn": 0,
+				"lost": 0,
+				"goalsFor": 7,
+				"goalsAgainst": 1,
+				"points": 9,
+				"groupPosition": 1
+			},
+			"nextFixture": {
+				"opponentId": "ARG",
+				"opponentName": "Argentina",
+				"utcDate": "2026-06-24T18:00:00Z",
+				"stage": "Round of 16"
+			}
+		},
+		"CRO": {
+			"id": "CRO",
+			"name": "Croatia",
+			"group": "A",
+			"status": "active",
+			"stats": {
+				"played": 3,
+				"won": 1,
+				"drawn": 1,
+				"lost": 1,
+				"goalsFor": 4,
+				"goalsAgainst": 3,
+				"points": 4,
+				"groupPosition": 2
+			},
+			"nextFixture": {
+				"opponentId": "MEX",
+				"opponentName": "Mexico",
+				"utcDate": "2026-06-25T15:00:00Z",
+				"stage": "Round of 16"
+			}
+		},
+		"CMR": {
+			"id": "CMR",
+			"name": "Cameroon",
+			"group": "A",
+			"status": "knocked_out",
+			"stats": {
+				"played": 3,
+				"won": 1,
+				"drawn": 0,
+				"lost": 2,
+				"goalsFor": 3,
+				"goalsAgainst": 5,
+				"points": 3,
+				"groupPosition": 3
+			},
+			"nextFixture": null
+		},
+		"SRB": {
+			"id": "SRB",
+			"name": "Serbia",
+			"group": "A",
+			"status": "knocked_out",
+			"stats": {
+				"played": 3,
+				"won": 0,
+				"drawn": 1,
+				"lost": 2,
+				"goalsFor": 2,
+				"goalsAgainst": 7,
+				"points": 1,
+				"groupPosition": 4
+			},
+			"nextFixture": null
+		},
+		"ARG": {
+			"id": "ARG",
+			"name": "Argentina",
+			"group": "B",
+			"status": "active",
+			"stats": {
+				"played": 3,
+				"won": 2,
+				"drawn": 1,
+				"lost": 0,
+				"goalsFor": 5,
+				"goalsAgainst": 2,
+				"points": 7,
+				"groupPosition": 1
+			},
+			"nextFixture": {
+				"opponentId": "BRA",
+				"opponentName": "Brazil",
+				"utcDate": "2026-06-24T18:00:00Z",
+				"stage": "Round of 16"
+			}
+		},
+		"MEX": {
+			"id": "MEX",
+			"name": "Mexico",
+			"group": "B",
+			"status": "active",
+			"stats": {
+				"played": 3,
+				"won": 2,
+				"drawn": 0,
+				"lost": 1,
+				"goalsFor": 4,
+				"goalsAgainst": 3,
+				"points": 6,
+				"groupPosition": 2
+			},
+			"nextFixture": {
+				"opponentId": "CRO",
+				"opponentName": "Croatia",
+				"utcDate": "2026-06-25T15:00:00Z",
+				"stage": "Round of 16"
+			}
+		},
+		"POL": {
+			"id": "POL",
+			"name": "Poland",
+			"group": "B",
+			"status": "knocked_out",
+			"stats": {
+				"played": 3,
+				"won": 1,
+				"drawn": 0,
+				"lost": 2,
+				"goalsFor": 2,
+				"goalsAgainst": 4,
+				"points": 3,
+				"groupPosition": 3
+			},
+			"nextFixture": null
+		},
+		"KSA": {
+			"id": "KSA",
+			"name": "Saudi Arabia",
+			"group": "B",
+			"status": "knocked_out",
+			"stats": {
+				"played": 3,
+				"won": 0,
+				"drawn": 1,
+				"lost": 2,
+				"goalsFor": 1,
+				"goalsAgainst": 3,
+				"points": 1,
+				"groupPosition": 4
+			},
+			"nextFixture": null
+		}
+	}
+}
