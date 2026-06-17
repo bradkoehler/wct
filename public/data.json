@@ -1,73 +1,73 @@
 {
-  "lastUpdated": "2026-06-17T11:13:00.890Z",
+  "lastUpdated": "2026-06-17T11:50:15.327Z",
   "groups": {
-    "Group A": [
+    "A": [
       "MEX",
       "KOR",
       "CZE",
       "RSA"
     ],
-    "Group B": [
+    "B": [
       "SUI",
       "CAN",
       "QAT",
       "BIH"
     ],
-    "Group C": [
+    "C": [
       "SCO",
       "MAR",
       "BRA",
       "HAI"
     ],
-    "Group D": [
+    "D": [
       "USA",
       "AUS",
       "TUR",
       "PAR"
     ],
-    "Group E": [
+    "E": [
       "GER",
       "CIV",
       "ECU",
       "CUW"
     ],
-    "Group F": [
+    "F": [
       "SWE",
       "JPN",
       "NED",
       "TUN"
     ],
-    "Group G": [
+    "G": [
       "NZL",
       "IRN",
       "BEL",
       "EGY"
     ],
-    "Group H": [
+    "H": [
       "URU",
       "KSA",
       "ESP",
       "CPV"
     ],
-    "Group I": [
+    "I": [
       "NOR",
       "FRA",
       "SEN",
       "IRQ"
     ],
-    "Group J": [
+    "J": [
       "ARG",
       "AUT",
       "JOR",
       "ALG"
     ],
-    "Group K": [
+    "K": [
       "COD",
       "COL",
       "POR",
       "UZB"
     ],
-    "Group L": [
+    "L": [
       "ENG",
       "GHA",
       "CRO",
@@ -78,7 +78,7 @@
     "MEX": {
       "id": "MEX",
       "name": "Mexico",
-      "group": "Group A",
+      "group": "A",
       "status": "active",
       "stats": {
         "played": 1,
@@ -100,7 +100,7 @@
     "KOR": {
       "id": "KOR",
       "name": "South Korea",
-      "group": "Group A",
+      "group": "A",
       "status": "active",
       "stats": {
         "played": 1,
@@ -122,7 +122,7 @@
     "CZE": {
       "id": "CZE",
       "name": "Czechia",
-      "group": "Group A",
+      "group": "A",
       "status": "active",
       "stats": {
         "played": 1,
@@ -144,7 +144,7 @@
     "RSA": {
       "id": "RSA",
       "name": "South Africa",
-      "group": "Group A",
+      "group": "A",
       "status": "active",
       "stats": {
         "played": 1,
@@ -166,7 +166,7 @@
     "SUI": {
       "id": "SUI",
       "name": "Switzerland",
-      "group": "Group B",
+      "group": "B",
       "status": "active",
       "stats": {
         "played": 1,
@@ -188,7 +188,7 @@
     "CAN": {
       "id": "CAN",
       "name": "Canada",
-      "group": "Group B",
+      "group": "B",
       "status": "active",
       "stats": {
         "played": 1,
@@ -210,7 +210,7 @@
     "QAT": {
       "id": "QAT",
       "name": "Qatar",
-      "group": "Group B",
+      "group": "B",
       "status": "active",
       "stats": {
         "played": 1,
@@ -232,7 +232,7 @@
     "BIH": {
       "id": "BIH",
       "name": "Bosnia-Herzegovina",
-      "group": "Group B",
+      "group": "B",
       "status": "active",
       "stats": {
         "played": 1,
@@ -254,7 +254,7 @@
     "SCO": {
       "id": "SCO",
       "name": "Scotland",
-      "group": "Group C",
+      "group": "C",
       "status": "active",
       "stats": {
         "played": 1,
@@ -276,7 +276,7 @@
     "MAR": {
       "id": "MAR",
       "name": "Morocco",
-      "group": "Group C",
+      "group": "C",
       "status": "active",
       "stats": {
         "played": 1,
@@ -298,7 +298,7 @@
     "BRA": {
       "id": "BRA",
       "name": "Brazil",
-      "group": "Group C",
+      "group": "C",
       "status": "active",
       "stats": {
         "played": 1,
@@ -320,7 +320,7 @@
     "HAI": {
       "id": "HAI",
       "name": "Haiti",
-      "group": "Group C",
+      "group": "C",
       "status": "active",
       "stats": {
         "played": 1,
@@ -342,7 +342,7 @@
     "USA": {
       "id": "USA",
       "name": "United States",
-      "group": "Group D",
+      "group": "D",
       "status": "active",
       "stats": {
         "played": 1,
@@ -364,7 +364,7 @@
     "AUS": {
       "id": "AUS",
       "name": "Australia",
-      "group": "Group D",
+      "group": "D",
       "status": "active",
       "stats": {
         "played": 1,
@@ -386,7 +386,7 @@
     "TUR": {
       "id": "TUR",
       "name": "Turkey",
-      "group": "Group D",
+      "group": "D",
       "status": "active",
       "stats": {
         "played": 1,
@@ -408,7 +408,7 @@
     "PAR": {
       "id": "PAR",
       "name": "Paraguay",
-      "group": "Group D",
+      "group": "D",
       "status": "active",
       "stats": {
         "played": 1,
@@ -430,7 +430,7 @@
     "GER": {
       "id": "GER",
       "name": "Germany",
-      "group": "Group E",
+      "group": "E",
       "status": "active",
       "stats": {
         "played": 1,
@@ -452,7 +452,7 @@
     "CIV": {
       "id": "CIV",
       "name": "Ivory Coast",
-      "group": "Group E",
+      "group": "E",
       "status": "active",
       "stats": {
         "played": 1,
@@ -474,7 +474,7 @@
     "ECU": {
       "id": "ECU",
       "name": "Ecuador",
-      "group": "Group E",
+      "group": "E",
       "status": "active",
       "stats": {
         "played": 1,
@@ -496,7 +496,7 @@
     "CUW": {
       "id": "CUW",
       "name": "Curaçao",
-      "group": "Group E",
+      "group": "E",
       "status": "active",
       "stats": {
         "played": 1,
@@ -518,7 +518,7 @@
     "SWE": {
       "id": "SWE",
       "name": "Sweden",
-      "group": "Group F",
+      "group": "F",
       "status": "active",
       "stats": {
         "played": 1,
@@ -540,7 +540,7 @@
     "JPN": {
       "id": "JPN",
       "name": "Japan",
-      "group": "Group F",
+      "group": "F",
       "status": "active",
       "stats": {
         "played": 1,
@@ -562,7 +562,7 @@
     "NED": {
       "id": "NED",
       "name": "Netherlands",
-      "group": "Group F",
+      "group": "F",
       "status": "active",
       "stats": {
         "played": 1,
@@ -584,7 +584,7 @@
     "TUN": {
       "id": "TUN",
       "name": "Tunisia",
-      "group": "Group F",
+      "group": "F",
       "status": "active",
       "stats": {
         "played": 1,
@@ -606,7 +606,7 @@
     "NZL": {
       "id": "NZL",
       "name": "New Zealand",
-      "group": "Group G",
+      "group": "G",
       "status": "active",
       "stats": {
         "played": 1,
@@ -628,7 +628,7 @@
     "IRN": {
       "id": "IRN",
       "name": "Iran",
-      "group": "Group G",
+      "group": "G",
       "status": "active",
       "stats": {
         "played": 1,
@@ -650,7 +650,7 @@
     "BEL": {
       "id": "BEL",
       "name": "Belgium",
-      "group": "Group G",
+      "group": "G",
       "status": "active",
       "stats": {
         "played": 1,
@@ -672,7 +672,7 @@
     "EGY": {
       "id": "EGY",
       "name": "Egypt",
-      "group": "Group G",
+      "group": "G",
       "status": "active",
       "stats": {
         "played": 1,
@@ -694,7 +694,7 @@
     "URU": {
       "id": "URU",
       "name": "Uruguay",
-      "group": "Group H",
+      "group": "H",
       "status": "active",
       "stats": {
         "played": 1,
@@ -706,12 +706,17 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "KSA": {
       "id": "KSA",
       "name": "Saudi Arabia",
-      "group": "Group H",
+      "group": "H",
       "status": "active",
       "stats": {
         "played": 1,
@@ -733,7 +738,7 @@
     "ESP": {
       "id": "ESP",
       "name": "Spain",
-      "group": "Group H",
+      "group": "H",
       "status": "active",
       "stats": {
         "played": 1,
@@ -755,7 +760,7 @@
     "CPV": {
       "id": "CPV",
       "name": "Cape Verde Islands",
-      "group": "Group H",
+      "group": "H",
       "status": "active",
       "stats": {
         "played": 1,
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
@@ -777,7 +782,7 @@
     "NOR": {
       "id": "NOR",
       "name": "Norway",
-      "group": "Group I",
+      "group": "I",
       "status": "active",
       "stats": {
         "played": 1,
@@ -799,7 +804,7 @@
     "FRA": {
       "id": "FRA",
       "name": "France",
-      "group": "Group I",
+      "group": "I",
       "status": "active",
       "stats": {
         "played": 1,
@@ -821,7 +826,7 @@
     "SEN": {
       "id": "SEN",
       "name": "Senegal",
-      "group": "Group I",
+      "group": "I",
       "status": "active",
       "stats": {
         "played": 1,
@@ -843,7 +848,7 @@
     "IRQ": {
       "id": "IRQ",
       "name": "Iraq",
-      "group": "Group I",
+      "group": "I",
       "status": "active",
       "stats": {
         "played": 1,
@@ -865,7 +870,7 @@
     "ARG": {
       "id": "ARG",
       "name": "Argentina",
-      "group": "Group J",
+      "group": "J",
       "status": "active",
       "stats": {
         "played": 1,
@@ -887,7 +892,7 @@
     "AUT": {
       "id": "AUT",
       "name": "Austria",
-      "group": "Group J",
+      "group": "J",
       "status": "active",
       "stats": {
         "played": 1,
@@ -909,7 +914,7 @@
     "JOR": {
       "id": "JOR",
       "name": "Jordan",
-      "group": "Group J",
+      "group": "J",
       "status": "active",
       "stats": {
         "played": 1,
@@ -931,7 +936,7 @@
     "ALG": {
       "id": "ALG",
       "name": "Algeria",
-      "group": "Group J",
+      "group": "J",
       "status": "active",
       "stats": {
         "played": 1,
@@ -953,7 +958,7 @@
     "COD": {
       "id": "COD",
       "name": "Congo DR",
-      "group": "Group K",
+      "group": "K",
       "status": "active",
       "stats": {
         "played": 0,
@@ -975,7 +980,7 @@
     "COL": {
       "id": "COL",
       "name": "Colombia",
-      "group": "Group K",
+      "group": "K",
       "status": "active",
       "stats": {
         "played": 0,
@@ -997,7 +1002,7 @@
     "POR": {
       "id": "POR",
       "name": "Portugal",
-      "group": "Group K",
+      "group": "K",
       "status": "active",
       "stats": {
         "played": 0,
@@ -1019,7 +1024,7 @@
     "UZB": {
       "id": "UZB",
       "name": "Uzbekistan",
-      "group": "Group K",
+      "group": "K",
       "status": "active",
       "stats": {
         "played": 0,
@@ -1041,7 +1046,7 @@
     "ENG": {
       "id": "ENG",
       "name": "England",
-      "group": "Group L",
+      "group": "L",
       "status": "active",
       "stats": {
         "played": 0,
@@ -1063,7 +1068,7 @@
     "GHA": {
       "id": "GHA",
       "name": "Ghana",
-      "group": "Group L",
+      "group": "L",
       "status": "active",
       "stats": {
         "played": 0,
@@ -1085,7 +1090,7 @@
     "CRO": {
       "id": "CRO",
       "name": "Croatia",
-      "group": "Group L",
+      "group": "L",
       "status": "active",
       "stats": {
         "played": 0,
@@ -1107,7 +1112,7 @@
     "PAN": {
       "id": "PAN",
       "name": "Panama",
-      "group": "Group L",
+      "group": "L",
       "status": "active",
       "stats": {
         "played": 0,
