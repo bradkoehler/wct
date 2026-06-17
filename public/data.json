@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T20:14:50.477Z",
+  "lastUpdated": "2026-06-17T22:20:56.392Z",
   "groups": {
     "A": [
       "MEX",
@@ -69,9 +69,9 @@
     ],
     "L": [
       "ENG",
-      "CRO",
       "GHA",
-      "PAN"
+      "PAN",
+      "CRO"
     ]
   },
   "teams": {
@@ -1050,40 +1050,18 @@
       "status": "active",
       "stats": {
         "played": 1,
-        "won": 0,
-        "drawn": 1,
+        "won": 1,
+        "drawn": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "points": 3,
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "CRO",
-        "opponentName": "Croatia",
-        "utcDate": "2026-06-17T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "CRO": {
-      "id": "CRO",
-      "name": "Croatia",
-      "group": "L",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 1,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-06-17T20:00:00Z",
+        "opponentId": "GHA",
+        "opponentName": "Ghana",
+        "utcDate": "2026-06-23T20:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1100,7 +1078,7 @@
         "goalsFor": 0,
         "goalsAgainst": 0,
         "points": 0,
-        "groupPosition": 3
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "PAN",
@@ -1122,12 +1100,34 @@
         "goalsFor": 0,
         "goalsAgainst": 0,
         "points": 0,
-        "groupPosition": 3
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "GHA",
         "opponentName": "Ghana",
         "utcDate": "2026-06-17T23:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CRO": {
+      "id": "CRO",
+      "name": "Croatia",
+      "group": "L",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "PAN",
+        "opponentName": "Panama",
+        "utcDate": "2026-06-23T23:00:00Z",
         "stage": "GROUP_STAGE"
       }
     }
