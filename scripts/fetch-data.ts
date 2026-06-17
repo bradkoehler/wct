@@ -142,7 +142,7 @@ async function main() {
 	const teams: TournamentData["teams"] = {};
 
 	for (const standing of standingsRes.standings) {
-		const groupLetter = standing.group.replace("GROUP_", "");
+		const groupLetter = standing.group.replace(/^GROUP[_\s]*/i, "");
 		groups[groupLetter] = standing.table.map((row) => row.team.tla);
 
 		for (const row of standing.table) {
