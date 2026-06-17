@@ -1,3 +1,4 @@
+import { getFlagUrl } from "../lib/flags";
 import type { Team } from "../lib/types";
 
 const chipStyles: Record<Team["status"], string> = {
@@ -26,6 +27,8 @@ function describeTeam(team: Team): string {
 }
 
 export function TeamChip({ team }: { team: Team }) {
+	const flagUrl = getFlagUrl(team.id);
+
 	return (
 		<li>
 			<span
@@ -36,9 +39,17 @@ export function TeamChip({ team }: { team: Team }) {
 					aria-hidden="true"
 					className={`h-1.5 w-1.5 rounded-full ${dotStyles[team.status]}`}
 				/>
+				{flagUrl && (
+					<img
+						src={flagUrl}
+						alt=""
+						aria-hidden="true"
+						className="h-3 w-4 rounded-sm object-cover"
+					/>
+				)}
 				<span className="sr-only">{describeTeam(team)}</span>
 				<span aria-hidden="true">
-					{team.id} &middot; {team.stats.points}
+					{team.name} &middot; {team.stats.points}
 				</span>
 			</span>
 		</li>

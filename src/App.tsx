@@ -86,7 +86,7 @@ function App() {
 							<h2 id="groups-heading" className="sr-only">
 								Group Stage
 							</h2>
-							<div className="grid gap-4 sm:grid-cols-2">
+							<div className="space-y-4">
 								{groups.map((group) => (
 									<GroupTable
 										key={group}
