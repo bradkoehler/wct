@@ -1,165 +1,1130 @@
 {
-	"lastUpdated": "2026-06-17T12:00:00Z",
-	"groups": {
-		"A": ["BRA", "CRO", "CMR", "SRB"],
-		"B": ["ARG", "MEX", "POL", "KSA"]
-	},
-	"teams": {
-		"BRA": {
-			"id": "BRA",
-			"name": "Brazil",
-			"group": "A",
-			"status": "active",
-			"stats": {
-				"played": 3,
-				"won": 3,
-				"drawn": 0,
-				"lost": 0,
-				"goalsFor": 7,
-				"goalsAgainst": 1,
-				"points": 9,
-				"groupPosition": 1
-			},
-			"nextFixture": {
-				"opponentId": "ARG",
-				"opponentName": "Argentina",
-				"utcDate": "2026-06-24T18:00:00Z",
-				"stage": "Round of 16"
-			}
-		},
-		"CRO": {
-			"id": "CRO",
-			"name": "Croatia",
-			"group": "A",
-			"status": "active",
-			"stats": {
-				"played": 3,
-				"won": 1,
-				"drawn": 1,
-				"lost": 1,
-				"goalsFor": 4,
-				"goalsAgainst": 3,
-				"points": 4,
-				"groupPosition": 2
-			},
-			"nextFixture": {
-				"opponentId": "MEX",
-				"opponentName": "Mexico",
-				"utcDate": "2026-06-25T15:00:00Z",
-				"stage": "Round of 16"
-			}
-		},
-		"CMR": {
-			"id": "CMR",
-			"name": "Cameroon",
-			"group": "A",
-			"status": "knocked_out",
-			"stats": {
-				"played": 3,
-				"won": 1,
-				"drawn": 0,
-				"lost": 2,
-				"goalsFor": 3,
-				"goalsAgainst": 5,
-				"points": 3,
-				"groupPosition": 3
-			},
-			"nextFixture": null
-		},
-		"SRB": {
-			"id": "SRB",
-			"name": "Serbia",
-			"group": "A",
-			"status": "knocked_out",
-			"stats": {
-				"played": 3,
-				"won": 0,
-				"drawn": 1,
-				"lost": 2,
-				"goalsFor": 2,
-				"goalsAgainst": 7,
-				"points": 1,
-				"groupPosition": 4
-			},
-			"nextFixture": null
-		},
-		"ARG": {
-			"id": "ARG",
-			"name": "Argentina",
-			"group": "B",
-			"status": "active",
-			"stats": {
-				"played": 3,
-				"won": 2,
-				"drawn": 1,
-				"lost": 0,
-				"goalsFor": 5,
-				"goalsAgainst": 2,
-				"points": 7,
-				"groupPosition": 1
-			},
-			"nextFixture": {
-				"opponentId": "BRA",
-				"opponentName": "Brazil",
-				"utcDate": "2026-06-24T18:00:00Z",
-				"stage": "Round of 16"
-			}
-		},
-		"MEX": {
-			"id": "MEX",
-			"name": "Mexico",
-			"group": "B",
-			"status": "active",
-			"stats": {
-				"played": 3,
-				"won": 2,
-				"drawn": 0,
-				"lost": 1,
-				"goalsFor": 4,
-				"goalsAgainst": 3,
-				"points": 6,
-				"groupPosition": 2
-			},
-			"nextFixture": {
-				"opponentId": "CRO",
-				"opponentName": "Croatia",
-				"utcDate": "2026-06-25T15:00:00Z",
-				"stage": "Round of 16"
-			}
-		},
-		"POL": {
-			"id": "POL",
-			"name": "Poland",
-			"group": "B",
-			"status": "knocked_out",
-			"stats": {
-				"played": 3,
-				"won": 1,
-				"drawn": 0,
-				"lost": 2,
-				"goalsFor": 2,
-				"goalsAgainst": 4,
-				"points": 3,
-				"groupPosition": 3
-			},
-			"nextFixture": null
-		},
-		"KSA": {
-			"id": "KSA",
-			"name": "Saudi Arabia",
-			"group": "B",
-			"status": "knocked_out",
-			"stats": {
-				"played": 3,
-				"won": 0,
-				"drawn": 1,
-				"lost": 2,
-				"goalsFor": 1,
-				"goalsAgainst": 3,
-				"points": 1,
-				"groupPosition": 4
-			},
-			"nextFixture": null
-		}
-	}
+  "lastUpdated": "2026-06-17T11:13:00.890Z",
+  "groups": {
+    "Group A": [
+      "MEX",
+      "KOR",
+      "CZE",
+      "RSA"
+    ],
+    "Group B": [
+      "SUI",
+      "CAN",
+      "QAT",
+      "BIH"
+    ],
+    "Group C": [
+      "SCO",
+      "MAR",
+      "BRA",
+      "HAI"
+    ],
+    "Group D": [
+      "USA",
+      "AUS",
+      "TUR",
+      "PAR"
+    ],
+    "Group E": [
+      "GER",
+      "CIV",
+      "ECU",
+      "CUW"
+    ],
+    "Group F": [
+      "SWE",
+      "JPN",
+      "NED",
+      "TUN"
+    ],
+    "Group G": [
+      "NZL",
+      "IRN",
+      "BEL",
+      "EGY"
+    ],
+    "Group H": [
+      "URU",
+      "KSA",
+      "ESP",
+      "CPV"
+    ],
+    "Group I": [
+      "NOR",
+      "FRA",
+      "SEN",
+      "IRQ"
+    ],
+    "Group J": [
+      "ARG",
+      "AUT",
+      "JOR",
+      "ALG"
+    ],
+    "Group K": [
+      "COD",
+      "COL",
+      "POR",
+      "UZB"
+    ],
+    "Group L": [
+      "ENG",
+      "GHA",
+      "CRO",
+      "PAN"
+    ]
+  },
+  "teams": {
+    "MEX": {
+      "id": "MEX",
+      "name": "Mexico",
+      "group": "Group A",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "KOR",
+        "opponentName": "South Korea",
+        "utcDate": "2026-06-19T01:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "KOR": {
+      "id": "KOR",
+      "name": "South Korea",
+      "group": "Group A",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "MEX",
+        "opponentName": "Mexico",
+        "utcDate": "2026-06-19T01:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CZE": {
+      "id": "CZE",
+      "name": "Czechia",
+      "group": "Group A",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "points": 0,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "RSA",
+        "opponentName": "South Africa",
+        "utcDate": "2026-06-18T16:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "RSA": {
+      "id": "RSA",
+      "name": "South Africa",
+      "group": "Group A",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "CZE",
+        "opponentName": "Czechia",
+        "utcDate": "2026-06-18T16:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "SUI": {
+      "id": "SUI",
+      "name": "Switzerland",
+      "group": "Group B",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "BIH",
+        "opponentName": "Bosnia-Herzegovina",
+        "utcDate": "2026-06-18T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CAN": {
+      "id": "CAN",
+      "name": "Canada",
+      "group": "Group B",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "QAT",
+        "opponentName": "Qatar",
+        "utcDate": "2026-06-18T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "QAT": {
+      "id": "QAT",
+      "name": "Qatar",
+      "group": "Group B",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "CAN",
+        "opponentName": "Canada",
+        "utcDate": "2026-06-18T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "BIH": {
+      "id": "BIH",
+      "name": "Bosnia-Herzegovina",
+      "group": "Group B",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "SUI",
+        "opponentName": "Switzerland",
+        "utcDate": "2026-06-18T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "SCO": {
+      "id": "SCO",
+      "name": "Scotland",
+      "group": "Group C",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "MAR",
+        "opponentName": "Morocco",
+        "utcDate": "2026-06-19T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "MAR": {
+      "id": "MAR",
+      "name": "Morocco",
+      "group": "Group C",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "SCO",
+        "opponentName": "Scotland",
+        "utcDate": "2026-06-19T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "BRA": {
+      "id": "BRA",
+      "name": "Brazil",
+      "group": "Group C",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "HAI",
+        "opponentName": "Haiti",
+        "utcDate": "2026-06-20T00:30:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "HAI": {
+      "id": "HAI",
+      "name": "Haiti",
+      "group": "Group C",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "BRA",
+        "opponentName": "Brazil",
+        "utcDate": "2026-06-20T00:30:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "USA": {
+      "id": "USA",
+      "name": "United States",
+      "group": "Group D",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "AUS",
+        "opponentName": "Australia",
+        "utcDate": "2026-06-19T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "AUS": {
+      "id": "AUS",
+      "name": "Australia",
+      "group": "Group D",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "USA",
+        "opponentName": "United States",
+        "utcDate": "2026-06-19T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "TUR": {
+      "id": "TUR",
+      "name": "Turkey",
+      "group": "Group D",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "points": 0,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "PAR",
+        "opponentName": "Paraguay",
+        "utcDate": "2026-06-20T03:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "PAR": {
+      "id": "PAR",
+      "name": "Paraguay",
+      "group": "Group D",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "TUR",
+        "opponentName": "Turkey",
+        "utcDate": "2026-06-20T03:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "GER": {
+      "id": "GER",
+      "name": "Germany",
+      "group": "Group E",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "CIV",
+        "opponentName": "Ivory Coast",
+        "utcDate": "2026-06-20T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CIV": {
+      "id": "CIV",
+      "name": "Ivory Coast",
+      "group": "Group E",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "GER",
+        "opponentName": "Germany",
+        "utcDate": "2026-06-20T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "ECU": {
+      "id": "ECU",
+      "name": "Ecuador",
+      "group": "Group E",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "points": 0,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "CUW",
+        "opponentName": "Curaçao",
+        "utcDate": "2026-06-21T00:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CUW": {
+      "id": "CUW",
+      "name": "Curaçao",
+      "group": "Group E",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 7,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "ECU",
+        "opponentName": "Ecuador",
+        "utcDate": "2026-06-21T00:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "SWE": {
+      "id": "SWE",
+      "name": "Sweden",
+      "group": "Group F",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "NED",
+        "opponentName": "Netherlands",
+        "utcDate": "2026-06-20T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "JPN": {
+      "id": "JPN",
+      "name": "Japan",
+      "group": "Group F",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 1,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "TUN",
+        "opponentName": "Tunisia",
+        "utcDate": "2026-06-21T04:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "NED": {
+      "id": "NED",
+      "name": "Netherlands",
+      "group": "Group F",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 1,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "SWE",
+        "opponentName": "Sweden",
+        "utcDate": "2026-06-20T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "TUN": {
+      "id": "TUN",
+      "name": "Tunisia",
+      "group": "Group F",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "JPN",
+        "opponentName": "Japan",
+        "utcDate": "2026-06-21T04:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "NZL": {
+      "id": "NZL",
+      "name": "New Zealand",
+      "group": "Group G",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 1,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "EGY",
+        "opponentName": "Egypt",
+        "utcDate": "2026-06-22T01:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "IRN": {
+      "id": "IRN",
+      "name": "Iran",
+      "group": "Group G",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 1,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "BEL",
+        "opponentName": "Belgium",
+        "utcDate": "2026-06-21T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "BEL": {
+      "id": "BEL",
+      "name": "Belgium",
+      "group": "Group G",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "IRN",
+        "opponentName": "Iran",
+        "utcDate": "2026-06-21T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "EGY": {
+      "id": "EGY",
+      "name": "Egypt",
+      "group": "Group G",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "NZL",
+        "opponentName": "New Zealand",
+        "utcDate": "2026-06-22T01:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "URU": {
+      "id": "URU",
+      "name": "Uruguay",
+      "group": "Group H",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 1
+      },
+      "nextFixture": null
+    },
+    "KSA": {
+      "id": "KSA",
+      "name": "Saudi Arabia",
+      "group": "Group H",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "ESP",
+        "opponentName": "Spain",
+        "utcDate": "2026-06-21T16:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "ESP": {
+      "id": "ESP",
+      "name": "Spain",
+      "group": "Group H",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "KSA",
+        "opponentName": "Saudi Arabia",
+        "utcDate": "2026-06-21T16:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CPV": {
+      "id": "CPV",
+      "name": "Cape Verde Islands",
+      "group": "Group H",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 1,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "URY",
+        "opponentName": "Uruguay",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "NOR": {
+      "id": "NOR",
+      "name": "Norway",
+      "group": "Group I",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "SEN",
+        "opponentName": "Senegal",
+        "utcDate": "2026-06-23T00:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "FRA": {
+      "id": "FRA",
+      "name": "France",
+      "group": "Group I",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "IRQ",
+        "opponentName": "Iraq",
+        "utcDate": "2026-06-22T21:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "SEN": {
+      "id": "SEN",
+      "name": "Senegal",
+      "group": "Group I",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "points": 0,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "NOR",
+        "opponentName": "Norway",
+        "utcDate": "2026-06-23T00:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "IRQ": {
+      "id": "IRQ",
+      "name": "Iraq",
+      "group": "Group I",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 4,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "FRA",
+        "opponentName": "France",
+        "utcDate": "2026-06-22T21:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "ARG": {
+      "id": "ARG",
+      "name": "Argentina",
+      "group": "Group J",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "AUT",
+        "opponentName": "Austria",
+        "utcDate": "2026-06-22T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "AUT": {
+      "id": "AUT",
+      "name": "Austria",
+      "group": "Group J",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "ARG",
+        "opponentName": "Argentina",
+        "utcDate": "2026-06-22T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "JOR": {
+      "id": "JOR",
+      "name": "Jordan",
+      "group": "Group J",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "points": 0,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "ALG",
+        "opponentName": "Algeria",
+        "utcDate": "2026-06-23T03:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "ALG": {
+      "id": "ALG",
+      "name": "Algeria",
+      "group": "Group J",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "JOR",
+        "opponentName": "Jordan",
+        "utcDate": "2026-06-23T03:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "COD": {
+      "id": "COD",
+      "name": "Congo DR",
+      "group": "Group K",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "POR",
+        "opponentName": "Portugal",
+        "utcDate": "2026-06-17T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "COL": {
+      "id": "COL",
+      "name": "Colombia",
+      "group": "Group K",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "UZB",
+        "opponentName": "Uzbekistan",
+        "utcDate": "2026-06-18T02:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "POR": {
+      "id": "POR",
+      "name": "Portugal",
+      "group": "Group K",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "COD",
+        "opponentName": "Congo DR",
+        "utcDate": "2026-06-17T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "UZB": {
+      "id": "UZB",
+      "name": "Uzbekistan",
+      "group": "Group K",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "COL",
+        "opponentName": "Colombia",
+        "utcDate": "2026-06-18T02:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "ENG": {
+      "id": "ENG",
+      "name": "England",
+      "group": "Group L",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "CRO",
+        "opponentName": "Croatia",
+        "utcDate": "2026-06-17T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "GHA": {
+      "id": "GHA",
+      "name": "Ghana",
+      "group": "Group L",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "PAN",
+        "opponentName": "Panama",
+        "utcDate": "2026-06-17T23:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CRO": {
+      "id": "CRO",
+      "name": "Croatia",
+      "group": "Group L",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "ENG",
+        "opponentName": "England",
+        "utcDate": "2026-06-17T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "PAN": {
+      "id": "PAN",
+      "name": "Panama",
+      "group": "Group L",
+      "status": "active",
+      "stats": {
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "GHA",
+        "opponentName": "Ghana",
+        "utcDate": "2026-06-17T23:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    }
+  }
 }
