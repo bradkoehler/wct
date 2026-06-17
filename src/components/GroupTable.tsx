@@ -1,5 +1,7 @@
 import type { Team } from "../lib/types";
 
+const TEAM_COLUMN_WIDTH = "w-40 sm:w-48";
+
 export function GroupTable({
 	group,
 	teams,
@@ -17,11 +19,14 @@ export function GroupTable({
 				</caption>
 				<thead>
 					<tr className="bg-gray-50 text-left text-gray-500">
-						<th scope="col" className="px-2 py-2 sm:px-3">
+						<th
+							scope="col"
+							className={`px-2 py-2 sm:px-3 ${TEAM_COLUMN_WIDTH}`}
+						>
 							Team
 						</th>
 						<th scope="col" className="px-2 py-2 sm:px-3">
-							Friend
+							Who
 						</th>
 						<th
 							scope="col"
@@ -60,7 +65,7 @@ export function GroupTable({
 						<tr key={team.id} className="border-t border-gray-100">
 							<th
 								scope="row"
-								className="px-2 py-2 text-left font-medium text-gray-900 sm:px-3"
+								className={`truncate px-2 py-2 text-left font-medium text-gray-900 sm:px-3 ${TEAM_COLUMN_WIDTH}`}
 							>
 								{team.name}
 							</th>
