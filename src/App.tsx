@@ -1,13 +1,21 @@
 import { useEffect, useState } from "react";
 import { FriendLeaderboard } from "./components/FriendLeaderboard";
 import { GroupTable } from "./components/GroupTable";
+import { Tabs } from "./components/Tabs";
 import { friends } from "./config/teams";
-import { getFriendStandings, getGroupTable } from "./lib/deriveStandings";
+import {
+	getFriendStandings,
+	getGroupTable,
+	getTeamOwners,
+} from "./lib/deriveStandings";
 import type { TournamentData } from "./lib/types";
+
+type View = "leaderboard" | "groups";
 
 function App() {
 	const [data, setData] = useState<TournamentData | null>(null);
 	const [error, setError] = useState<string | null>(null);
+	const [view, setView] = useState<View>("leaderboard");
 
 	useEffect(() => {
 		fetch(`${import.meta.env.BASE_URL}data.json`)
@@ -38,10 +46,11 @@ function App() {
 	}
 
 	const standings = getFriendStandings(data, friends);
+	const owners = getTeamOwners(friends);
 	const groups = Object.keys(data.groups).sort();
 
 	return (
-		<main className="mx-auto max-w-3xl space-y-8 p-4 sm:p-6">
+		<main className="mx-auto max-w-3xl space-y-6 p-4 sm:p-6">
 			<header>
 				<h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
 					World Cup Tracker
@@ -60,23 +69,37 @@ function App() {
 					.
 				</p>
 			) : (
-				<FriendLeaderboard standings={standings} />
-			)}
+				<>
+					<Tabs
+						value={view}
+						onChange={setView}
+						options={[
+							{ value: "leaderboard", label: "Leaderboard" },
+							{ value: "groups", label: "Groups" },
+						]}
+					/>
 
-			<section aria-labelledby="groups-heading" className="space-y-4">
-				<h2 id="groups-heading" className="text-xl font-semibold text-gray-900">
-					Group Stage
-				</h2>
-				<div className="grid gap-4 sm:grid-cols-2">
-					{groups.map((group) => (
-						<GroupTable
-							key={group}
-							group={group}
-							teams={getGroupTable(data, group)}
-						/>
-					))}
-				</div>
-			</section>
+					{view === "leaderboard" ? (
+						<FriendLeaderboard standings={standings} />
+					) : (
+						<section aria-labelledby="groups-heading" className="space-y-4">
+							<h2 id="groups-heading" className="sr-only">
+								Group Stage
+							</h2>
+							<div className="grid gap-4 sm:grid-cols-2">
+								{groups.map((group) => (
+									<GroupTable
+										key={group}
+										group={group}
+										teams={getGroupTable(data, group)}
+										owners={owners}
+									/>
+								))}
+							</div>
+						</section>
+					)}
+				</>
+			)}
 		</main>
 	);
 }

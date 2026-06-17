@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { getFriendStandings, getGroupTable } from "../src/lib/deriveStandings";
+import {
+	getFriendStandings,
+	getGroupTable,
+	getTeamOwners,
+} from "../src/lib/deriveStandings";
 import type { TournamentData } from "../src/lib/types";
 
 function makeTeam(overrides: Partial<TournamentData["teams"][string]> = {}) {
@@ -100,5 +104,20 @@ describe("getGroupTable", () => {
 
 	it("returns an empty array for an unknown group", () => {
 		expect(getGroupTable(data, "Z")).toEqual([]);
+	});
+});
+
+describe("getTeamOwners", () => {
+	it("maps each team id to the friend who owns it", () => {
+		const owners = getTeamOwners([
+			{ friend: "Alice", teamIds: ["BRA", "CRO"] },
+			{ friend: "Bob", teamIds: ["ARG"] },
+		]);
+
+		expect(owners).toEqual({ BRA: "Alice", CRO: "Alice", ARG: "Bob" });
+	});
+
+	it("returns an empty object when there are no friends", () => {
+		expect(getTeamOwners([])).toEqual({});
 	});
 });

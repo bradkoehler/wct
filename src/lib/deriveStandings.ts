@@ -53,3 +53,15 @@ export function getGroupTable(data: TournamentData, group: string): Team[] {
 		.filter((team): team is Team => team !== undefined)
 		.sort((a, b) => a.stats.groupPosition - b.stats.groupPosition);
 }
+
+export function getTeamOwners(
+	friends: FriendAssignment[],
+): Record<string, string> {
+	const owners: Record<string, string> = {};
+	for (const assignment of friends) {
+		for (const teamId of assignment.teamIds) {
+			owners[teamId] = assignment.friend;
+		}
+	}
+	return owners;
+}

@@ -1,9 +1,17 @@
 import type { Team } from "../lib/types";
 
-export function GroupTable({ group, teams }: { group: string; teams: Team[] }) {
+export function GroupTable({
+	group,
+	teams,
+	owners,
+}: {
+	group: string;
+	teams: Team[];
+	owners: Record<string, string>;
+}) {
 	return (
 		<div className="overflow-x-auto rounded-xl border border-gray-200">
-			<table className="w-full min-w-[420px] text-sm">
+			<table className="w-full min-w-[480px] text-sm">
 				<caption className="px-3 py-2 text-left font-semibold text-gray-900">
 					Group {group}
 				</caption>
@@ -11,6 +19,9 @@ export function GroupTable({ group, teams }: { group: string; teams: Team[] }) {
 					<tr className="bg-gray-50 text-left text-gray-500">
 						<th scope="col" className="px-3 py-2">
 							Team
+						</th>
+						<th scope="col" className="px-3 py-2">
+							Friend
 						</th>
 						<th scope="col" className="px-3 py-2 text-right">
 							P
@@ -41,6 +52,9 @@ export function GroupTable({ group, teams }: { group: string; teams: Team[] }) {
 							>
 								{team.name}
 							</th>
+							<td className="px-3 py-2 text-gray-500">
+								{owners[team.id] ?? "—"}
+							</td>
 							<td className="px-3 py-2 text-right">{team.stats.played}</td>
 							<td className="px-3 py-2 text-right">{team.stats.won}</td>
 							<td className="px-3 py-2 text-right">{team.stats.drawn}</td>
