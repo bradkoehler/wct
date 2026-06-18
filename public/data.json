@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:37:37.947Z",
+  "lastUpdated": "2026-06-18T16:35:34.132Z",
   "groups": {
     "A": [
       "MEX",
@@ -125,13 +125,13 @@
       "group": "A",
       "status": "active",
       "stats": {
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 2,
-        "points": 0,
+        "points": 3,
         "groupPosition": 3
       },
       "nextFixture": {
@@ -147,12 +147,12 @@
       "group": "A",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 0,
-        "goalsAgainst": 2,
+        "goalsAgainst": 3,
         "points": 0,
         "groupPosition": 4
       },
@@ -706,7 +706,12 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "KSA": {
       "id": "KSA",
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
