@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T09:16:12.336Z",
+  "lastUpdated": "2026-06-18T12:37:37.947Z",
   "groups": {
     "A": [
       "MEX",
@@ -706,12 +706,7 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "CPV",
-        "opponentName": "Cape Verde Islands",
-        "utcDate": "2026-06-21T22:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "KSA": {
       "id": "KSA",
@@ -773,7 +768,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URU",
+        "opponentId": "URY",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
@@ -1081,9 +1076,9 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "PAN",
-        "opponentName": "Panama",
-        "utcDate": "2026-06-17T23:00:00Z",
+        "opponentId": "ENG",
+        "opponentName": "England",
+        "utcDate": "2026-06-23T20:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1103,9 +1098,9 @@
         "groupPosition": 3
       },
       "nextFixture": {
-        "opponentId": "GHA",
-        "opponentName": "Ghana",
-        "utcDate": "2026-06-17T23:00:00Z",
+        "opponentId": "CRO",
+        "opponentName": "Croatia",
+        "utcDate": "2026-06-23T23:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
