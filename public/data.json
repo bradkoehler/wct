@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T23:57:33.768Z",
+  "lastUpdated": "2026-06-18T04:52:50.690Z",
   "groups": {
     "A": [
       "MEX",
@@ -62,9 +62,9 @@
       "ALG"
     ],
     "K": [
+      "COL",
       "COD",
       "POR",
-      "COL",
       "UZB"
     ],
     "L": [
@@ -955,6 +955,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "COL": {
+      "id": "COL",
+      "name": "Colombia",
+      "group": "K",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "COD",
+        "opponentName": "Congo DR",
+        "utcDate": "2026-06-24T02:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "COD": {
       "id": "COD",
       "name": "Congo DR",
@@ -968,7 +990,7 @@
         "goalsFor": 1,
         "goalsAgainst": 1,
         "points": 1,
-        "groupPosition": 1
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "COL",
@@ -990,34 +1012,12 @@
         "goalsFor": 1,
         "goalsAgainst": 1,
         "points": 1,
-        "groupPosition": 1
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "UZB",
         "opponentName": "Uzbekistan",
         "utcDate": "2026-06-23T17:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "COL": {
-      "id": "COL",
-      "name": "Colombia",
-      "group": "K",
-      "status": "active",
-      "stats": {
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "UZB",
-        "opponentName": "Uzbekistan",
-        "utcDate": "2026-06-18T02:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1027,19 +1027,19 @@
       "group": "K",
       "status": "active",
       "stats": {
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
         "points": 0,
-        "groupPosition": 3
+        "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "COL",
-        "opponentName": "Colombia",
-        "utcDate": "2026-06-18T02:00:00Z",
+        "opponentId": "POR",
+        "opponentName": "Portugal",
+        "utcDate": "2026-06-23T17:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1072,12 +1072,12 @@
       "status": "active",
       "stats": {
         "played": 1,
-        "won": 0,
-        "drawn": 1,
+        "won": 1,
+        "drawn": 0,
         "lost": 0,
-        "goalsFor": 0,
+        "goalsFor": 1,
         "goalsAgainst": 0,
-        "points": 1,
+        "points": 3,
         "groupPosition": 2
       },
       "nextFixture": {
@@ -1095,12 +1095,12 @@
       "stats": {
         "played": 1,
         "won": 0,
-        "drawn": 1,
-        "lost": 0,
+        "drawn": 0,
+        "lost": 1,
         "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 1,
-        "groupPosition": 2
+        "goalsAgainst": 1,
+        "points": 0,
+        "groupPosition": 3
       },
       "nextFixture": {
         "opponentId": "GHA",
