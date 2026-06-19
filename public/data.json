@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:05:43.295Z",
+  "lastUpdated": "2026-06-19T23:37:10.703Z",
   "groups": {
     "A": [
       "MEX",
@@ -14,8 +14,8 @@
       "QAT"
     ],
     "C": [
-      "SCO",
       "MAR",
+      "SCO",
       "BRA",
       "HAI"
     ],
@@ -251,6 +251,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "MAR": {
+      "id": "MAR",
+      "name": "Morocco",
+      "group": "C",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "points": 4,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "SCO",
+        "opponentName": "Scotland",
+        "utcDate": "2026-06-19T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "SCO": {
       "id": "SCO",
       "name": "Scotland",
@@ -259,38 +281,16 @@
       "stats": {
         "played": 2,
         "won": 1,
-        "drawn": 1,
-        "lost": 0,
+        "drawn": 0,
+        "lost": 1,
         "goalsFor": 1,
-        "goalsAgainst": 0,
-        "points": 4,
-        "groupPosition": 1
+        "goalsAgainst": 1,
+        "points": 3,
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "MAR",
         "opponentName": "Morocco",
-        "utcDate": "2026-06-19T22:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "MAR": {
-      "id": "MAR",
-      "name": "Morocco",
-      "group": "C",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 0,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 2,
-        "groupPosition": 2
-      },
-      "nextFixture": {
-        "opponentId": "SCO",
-        "opponentName": "Scotland",
         "utcDate": "2026-06-19T22:00:00Z",
         "stage": "GROUP_STAGE"
       }
@@ -706,7 +706,12 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "KSA": {
       "id": "KSA",
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
