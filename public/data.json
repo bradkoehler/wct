@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T00:09:47.514Z",
+  "lastUpdated": "2026-06-19T05:34:16.186Z",
   "groups": {
     "A": [
       "MEX",
@@ -81,19 +81,19 @@
       "group": "A",
       "status": "active",
       "stats": {
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 2,
+        "goalsFor": 3,
         "goalsAgainst": 0,
-        "points": 3,
+        "points": 6,
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "KOR",
-        "opponentName": "South Korea",
-        "utcDate": "2026-06-19T01:00:00Z",
+        "opponentId": "CZE",
+        "opponentName": "Czechia",
+        "utcDate": "2026-06-25T01:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -103,19 +103,19 @@
       "group": "A",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 2,
-        "goalsAgainst": 1,
+        "goalsAgainst": 2,
         "points": 3,
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "MEX",
-        "opponentName": "Mexico",
-        "utcDate": "2026-06-19T01:00:00Z",
+        "opponentId": "RSA",
+        "opponentName": "South Africa",
+        "utcDate": "2026-06-25T01:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -706,7 +706,12 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "KSA": {
       "id": "KSA",
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
