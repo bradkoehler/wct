@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T05:34:16.186Z",
+  "lastUpdated": "2026-06-19T10:40:30.844Z",
   "groups": {
     "A": [
       "MEX",
@@ -706,12 +706,7 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "CPV",
-        "opponentName": "Cape Verde Islands",
-        "utcDate": "2026-06-21T22:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "KSA": {
       "id": "KSA",
@@ -773,7 +768,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URU",
+        "opponentId": "URY",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
