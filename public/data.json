@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T03:53:52.831Z",
+  "lastUpdated": "2026-06-20T07:52:34.081Z",
   "groups": {
     "A": [
       "MEX",
@@ -399,9 +399,9 @@
         "groupPosition": 3
       },
       "nextFixture": {
-        "opponentId": "TUR",
-        "opponentName": "Turkey",
-        "utcDate": "2026-06-20T03:00:00Z",
+        "opponentId": "AUS",
+        "opponentName": "Australia",
+        "utcDate": "2026-06-26T02:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -421,9 +421,9 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "PAR",
-        "opponentName": "Paraguay",
-        "utcDate": "2026-06-20T03:00:00Z",
+        "opponentId": "USA",
+        "opponentName": "United States",
+        "utcDate": "2026-06-26T02:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -706,12 +706,7 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "CPV",
-        "opponentName": "Cape Verde Islands",
-        "utcDate": "2026-06-21T22:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "KSA": {
       "id": "KSA",
@@ -773,7 +768,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URU",
+        "opponentId": "URY",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
