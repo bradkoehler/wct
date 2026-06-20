@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T19:40:25.053Z",
+  "lastUpdated": "2026-06-20T21:19:56.313Z",
   "groups": {
     "A": [
       "MEX",
@@ -26,8 +26,8 @@
       "TUR"
     ],
     "E": [
-      "GER",
       "CIV",
+      "GER",
       "ECU",
       "CUW"
     ],
@@ -427,46 +427,46 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "GER": {
-      "id": "GER",
-      "name": "Germany",
-      "group": "E",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 1,
-        "points": 3,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-20T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "CIV": {
       "id": "CIV",
       "name": "Ivory Coast",
       "group": "E",
       "status": "active",
       "stats": {
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 0,
-        "points": 3,
-        "groupPosition": 2
+        "points": 6,
+        "groupPosition": 1
       },
       "nextFixture": {
         "opponentId": "GER",
         "opponentName": "Germany",
+        "utcDate": "2026-06-20T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "GER": {
+      "id": "GER",
+      "name": "Germany",
+      "group": "E",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 1,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 2,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "CIV",
+        "opponentName": "Ivory Coast",
         "utcDate": "2026-06-20T20:00:00Z",
         "stage": "GROUP_STAGE"
       }
