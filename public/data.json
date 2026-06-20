@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T21:19:56.313Z",
+  "lastUpdated": "2026-06-20T22:42:53.123Z",
   "groups": {
     "A": [
       "MEX",
@@ -26,8 +26,8 @@
       "TUR"
     ],
     "E": [
-      "CIV",
       "GER",
+      "CIV",
       "ECU",
       "CUW"
     ],
@@ -427,28 +427,6 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "CIV": {
-      "id": "CIV",
-      "name": "Ivory Coast",
-      "group": "E",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 2,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 0,
-        "points": 6,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "GER",
-        "opponentName": "Germany",
-        "utcDate": "2026-06-20T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "GER": {
       "id": "GER",
       "name": "Germany",
@@ -456,18 +434,40 @@
       "status": "active",
       "stats": {
         "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "points": 6,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "ECU",
+        "opponentName": "Ecuador",
+        "utcDate": "2026-06-25T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "CIV": {
+      "id": "CIV",
+      "name": "Ivory Coast",
+      "group": "E",
+      "status": "active",
+      "stats": {
+        "played": 2,
         "won": 1,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 7,
+        "goalsFor": 2,
         "goalsAgainst": 2,
         "points": 3,
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-20T20:00:00Z",
+        "opponentId": "CUW",
+        "opponentName": "Curaçao",
+        "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -706,7 +706,12 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "KSA": {
       "id": "KSA",
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
