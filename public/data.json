@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T23:37:10.703Z",
+  "lastUpdated": "2026-06-20T03:53:52.831Z",
   "groups": {
     "A": [
       "MEX",
@@ -14,16 +14,16 @@
       "QAT"
     ],
     "C": [
+      "BRA",
       "MAR",
       "SCO",
-      "BRA",
       "HAI"
     ],
     "D": [
       "USA",
       "AUS",
-      "TUR",
-      "PAR"
+      "PAR",
+      "TUR"
     ],
     "E": [
       "GER",
@@ -251,6 +251,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "BRA": {
+      "id": "BRA",
+      "name": "Brazil",
+      "group": "C",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "points": 4,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "SCO",
+        "opponentName": "Scotland",
+        "utcDate": "2026-06-24T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "MAR": {
       "id": "MAR",
       "name": "Morocco",
@@ -264,12 +286,12 @@
         "goalsFor": 2,
         "goalsAgainst": 1,
         "points": 4,
-        "groupPosition": 1
+        "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "SCO",
-        "opponentName": "Scotland",
-        "utcDate": "2026-06-19T22:00:00Z",
+        "opponentId": "HAI",
+        "opponentName": "Haiti",
+        "utcDate": "2026-06-24T22:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -286,34 +308,12 @@
         "goalsFor": 1,
         "goalsAgainst": 1,
         "points": 3,
-        "groupPosition": 2
-      },
-      "nextFixture": {
-        "opponentId": "MAR",
-        "opponentName": "Morocco",
-        "utcDate": "2026-06-19T22:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "BRA": {
-      "id": "BRA",
-      "name": "Brazil",
-      "group": "C",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 1,
         "groupPosition": 3
       },
       "nextFixture": {
-        "opponentId": "HAI",
-        "opponentName": "Haiti",
-        "utcDate": "2026-06-20T00:30:00Z",
+        "opponentId": "BRA",
+        "opponentName": "Brazil",
+        "utcDate": "2026-06-24T22:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -323,19 +323,19 @@
       "group": "C",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 0,
-        "goalsAgainst": 1,
+        "goalsAgainst": 4,
         "points": 0,
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "BRA",
-        "opponentName": "Brazil",
-        "utcDate": "2026-06-20T00:30:00Z",
+        "opponentId": "MAR",
+        "opponentName": "Morocco",
+        "utcDate": "2026-06-24T22:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -383,46 +383,46 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "TUR": {
-      "id": "TUR",
-      "name": "Turkey",
-      "group": "D",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 2,
-        "points": 0,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "PAR",
-        "opponentName": "Paraguay",
-        "utcDate": "2026-06-20T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "PAR": {
       "id": "PAR",
       "name": "Paraguay",
       "group": "D",
       "status": "active",
       "stats": {
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 4,
-        "points": 0,
-        "groupPosition": 4
+        "points": 3,
+        "groupPosition": 3
       },
       "nextFixture": {
         "opponentId": "TUR",
         "opponentName": "Turkey",
+        "utcDate": "2026-06-20T03:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "TUR": {
+      "id": "TUR",
+      "name": "Turkey",
+      "group": "D",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "points": 0,
+        "groupPosition": 4
+      },
+      "nextFixture": {
+        "opponentId": "PAR",
+        "opponentName": "Paraguay",
         "utcDate": "2026-06-20T03:00:00Z",
         "stage": "GROUP_STAGE"
       }
