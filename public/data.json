@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T16:16:29.029Z",
+  "lastUpdated": "2026-06-21T18:05:57.692Z",
   "groups": {
     "A": [
       "MEX",
@@ -44,9 +44,9 @@
       "EGY"
     ],
     "H": [
-      "KSA",
       "ESP",
       "URU",
+      "KSA",
       "CPV"
     ],
     "I": [
@@ -691,28 +691,6 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "KSA": {
-      "id": "KSA",
-      "name": "Saudi Arabia",
-      "group": "H",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 0,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 2,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-06-21T16:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "ESP": {
       "id": "ESP",
       "name": "Spain",
@@ -720,13 +698,13 @@
       "status": "active",
       "stats": {
         "played": 2,
-        "won": 0,
-        "drawn": 2,
+        "won": 1,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
+        "goalsFor": 4,
         "goalsAgainst": 0,
-        "points": 2,
-        "groupPosition": 2
+        "points": 4,
+        "groupPosition": 1
       },
       "nextFixture": {
         "opponentId": "KSA",
@@ -748,12 +726,34 @@
         "goalsFor": 1,
         "goalsAgainst": 1,
         "points": 1,
-        "groupPosition": 3
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "CPV",
         "opponentName": "Cape Verde Islands",
         "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "KSA": {
+      "id": "KSA",
+      "name": "Saudi Arabia",
+      "group": "H",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 0,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 5,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "ESP",
+        "opponentName": "Spain",
+        "utcDate": "2026-06-21T16:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
