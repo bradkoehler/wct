@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T20:12:37.960Z",
+  "lastUpdated": "2026-06-21T21:55:21.433Z",
   "groups": {
     "A": [
       "MEX",
@@ -465,7 +465,7 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "CUW",
+        "opponentId": "CUR",
         "opponentName": "Curaçao",
         "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
@@ -508,12 +508,7 @@
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "NED": {
       "id": "NED",
@@ -619,9 +614,9 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "BEL",
-        "opponentName": "Belgium",
-        "utcDate": "2026-06-21T19:00:00Z",
+        "opponentId": "EGY",
+        "opponentName": "Egypt",
+        "utcDate": "2026-06-27T03:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -641,9 +636,9 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "IRN",
-        "opponentName": "Iran",
-        "utcDate": "2026-06-21T19:00:00Z",
+        "opponentId": "NZL",
+        "opponentName": "New Zealand",
+        "utcDate": "2026-06-27T03:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
