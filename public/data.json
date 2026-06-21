@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T18:05:57.692Z",
+  "lastUpdated": "2026-06-21T20:12:37.960Z",
   "groups": {
     "A": [
       "MEX",
@@ -38,9 +38,9 @@
       "TUN"
     ],
     "G": [
-      "NZL",
       "IRN",
       "BEL",
+      "NZL",
       "EGY"
     ],
     "H": [
@@ -603,42 +603,20 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "NZL": {
-      "id": "NZL",
-      "name": "New Zealand",
-      "group": "G",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
-        "points": 1,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "EGY",
-        "opponentName": "Egypt",
-        "utcDate": "2026-06-22T01:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "IRN": {
       "id": "IRN",
       "name": "Iran",
       "group": "G",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "goalsFor": 2,
         "goalsAgainst": 2,
-        "points": 1,
-        "groupPosition": 2
+        "points": 2,
+        "groupPosition": 1
       },
       "nextFixture": {
         "opponentId": "BEL",
@@ -653,19 +631,41 @@
       "group": "G",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "goalsFor": 1,
         "goalsAgainst": 1,
-        "points": 1,
-        "groupPosition": 3
+        "points": 2,
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "IRN",
         "opponentName": "Iran",
         "utcDate": "2026-06-21T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "NZL": {
+      "id": "NZL",
+      "name": "New Zealand",
+      "group": "G",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "EGY",
+        "opponentName": "Egypt",
+        "utcDate": "2026-06-22T01:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -707,9 +707,9 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "KSA",
-        "opponentName": "Saudi Arabia",
-        "utcDate": "2026-06-21T16:00:00Z",
+        "opponentId": "URY",
+        "opponentName": "Uruguay",
+        "utcDate": "2026-06-27T00:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -728,12 +728,7 @@
         "points": 1,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CPV",
-        "opponentName": "Cape Verde Islands",
-        "utcDate": "2026-06-21T22:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "KSA": {
       "id": "KSA",
@@ -751,9 +746,9 @@
         "groupPosition": 3
       },
       "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-06-21T16:00:00Z",
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-27T00:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -773,7 +768,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URU",
+        "opponentId": "URY",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
