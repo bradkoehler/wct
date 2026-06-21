@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T21:55:21.433Z",
+  "lastUpdated": "2026-06-21T23:16:48.321Z",
   "groups": {
     "A": [
       "MEX",
@@ -44,8 +44,8 @@
       "EGY"
     ],
     "H": [
-      "ESP",
       "URU",
+      "ESP",
       "KSA",
       "CPV"
     ],
@@ -465,7 +465,7 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "CUR",
+        "opponentId": "CUW",
         "opponentName": "Curaçao",
         "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
@@ -508,7 +508,12 @@
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CIV",
+        "opponentName": "Ivory Coast",
+        "utcDate": "2026-06-25T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "NED": {
       "id": "NED",
@@ -686,6 +691,23 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "URU": {
+      "id": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "points": 4,
+        "groupPosition": 1
+      },
+      "nextFixture": null
+    },
     "ESP": {
       "id": "ESP",
       "name": "Spain",
@@ -699,7 +721,7 @@
         "goalsFor": 4,
         "goalsAgainst": 0,
         "points": 4,
-        "groupPosition": 1
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "URY",
@@ -707,23 +729,6 @@
         "utcDate": "2026-06-27T00:00:00Z",
         "stage": "GROUP_STAGE"
       }
-    },
-    "URU": {
-      "id": "URU",
-      "name": "Uruguay",
-      "group": "H",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 1,
-        "groupPosition": 2
-      },
-      "nextFixture": null
     },
     "KSA": {
       "id": "KSA",
@@ -753,12 +758,12 @@
       "group": "H",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
         "points": 1,
         "groupPosition": 4
       },
