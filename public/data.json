@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T14:29:08.592Z",
+  "lastUpdated": "2026-06-21T16:16:29.029Z",
   "groups": {
     "A": [
       "MEX",
@@ -44,9 +44,9 @@
       "EGY"
     ],
     "H": [
-      "URU",
       "KSA",
       "ESP",
+      "URU",
       "CPV"
     ],
     "I": [
@@ -691,37 +691,20 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "URU": {
-      "id": "URU",
-      "name": "Uruguay",
-      "group": "H",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 1,
-        "groupPosition": 1
-      },
-      "nextFixture": null
-    },
     "KSA": {
       "id": "KSA",
       "name": "Saudi Arabia",
       "group": "H",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "goalsFor": 1,
         "goalsAgainst": 1,
-        "points": 1,
-        "groupPosition": 2
+        "points": 2,
+        "groupPosition": 1
       },
       "nextFixture": {
         "opponentId": "ESP",
@@ -736,19 +719,41 @@
       "group": "H",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
-        "points": 1,
-        "groupPosition": 3
+        "points": 2,
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "KSA",
         "opponentName": "Saudi Arabia",
         "utcDate": "2026-06-21T16:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "URU": {
+      "id": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "status": "active",
+      "stats": {
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "points": 1,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
