@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T00:09:39.345Z",
+  "lastUpdated": "2026-06-21T05:25:51.653Z",
   "groups": {
     "A": [
       "MEX",
@@ -33,8 +33,8 @@
     ],
     "F": [
       "NED",
-      "SWE",
       "JPN",
+      "SWE",
       "TUN"
     ],
     "G": [
@@ -487,9 +487,9 @@
         "groupPosition": 3
       },
       "nextFixture": {
-        "opponentId": "CUW",
-        "opponentName": "Curaçao",
-        "utcDate": "2026-06-21T00:00:00Z",
+        "opponentId": "GER",
+        "opponentName": "Germany",
+        "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -509,9 +509,9 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "ECU",
-        "opponentName": "Ecuador",
-        "utcDate": "2026-06-21T00:00:00Z",
+        "opponentId": "CIV",
+        "opponentName": "Ivory Coast",
+        "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -537,6 +537,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "JPN": {
+      "id": "JPN",
+      "name": "Japan",
+      "group": "F",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "points": 4,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "TUN",
+        "opponentName": "Tunisia",
+        "utcDate": "2026-06-21T04:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "SWE": {
       "id": "SWE",
       "name": "Sweden",
@@ -550,34 +572,12 @@
         "goalsFor": 6,
         "goalsAgainst": 6,
         "points": 3,
-        "groupPosition": 2
+        "groupPosition": 3
       },
       "nextFixture": {
         "opponentId": "JPN",
         "opponentName": "Japan",
         "utcDate": "2026-06-25T23:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "JPN": {
-      "id": "JPN",
-      "name": "Japan",
-      "group": "F",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
-        "points": 1,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "TUN",
-        "opponentName": "Tunisia",
-        "utcDate": "2026-06-21T04:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -587,12 +587,12 @@
       "group": "F",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 5,
+        "goalsAgainst": 7,
         "points": 0,
         "groupPosition": 4
       },
@@ -706,7 +706,12 @@
         "points": 1,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CPV",
+        "opponentName": "Cape Verde Islands",
+        "utcDate": "2026-06-21T22:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "KSA": {
       "id": "KSA",
@@ -768,7 +773,7 @@
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-21T22:00:00Z",
         "stage": "GROUP_STAGE"
