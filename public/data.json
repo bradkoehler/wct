@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T05:25:51.653Z",
+  "lastUpdated": "2026-06-21T09:08:56.947Z",
   "groups": {
     "A": [
       "MEX",
@@ -547,15 +547,15 @@
         "won": 1,
         "drawn": 1,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 6,
         "goalsAgainst": 2,
         "points": 4,
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "TUN",
-        "opponentName": "Tunisia",
-        "utcDate": "2026-06-21T04:00:00Z",
+        "opponentId": "SWE",
+        "opponentName": "Sweden",
+        "utcDate": "2026-06-25T23:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -592,14 +592,14 @@
         "drawn": 0,
         "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 7,
+        "goalsAgainst": 9,
         "points": 0,
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "JPN",
-        "opponentName": "Japan",
-        "utcDate": "2026-06-21T04:00:00Z",
+        "opponentId": "NED",
+        "opponentName": "Netherlands",
+        "utcDate": "2026-06-25T23:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
