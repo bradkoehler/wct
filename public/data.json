@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T14:43:33.221Z",
+  "lastUpdated": "2026-06-22T18:47:40.575Z",
   "groups": {
     "A": [
       "MEX",
@@ -707,7 +707,7 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "URU",
+        "opponentId": "URY",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-27T00:00:00Z",
         "stage": "GROUP_STAGE"
@@ -728,12 +728,7 @@
         "points": 2,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-06-27T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
@@ -873,13 +868,13 @@
       "group": "J",
       "status": "active",
       "stats": {
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 3,
+        "goalsFor": 4,
         "goalsAgainst": 0,
-        "points": 3,
+        "points": 6,
         "groupPosition": 1
       },
       "nextFixture": {
@@ -895,12 +890,12 @@
       "group": "J",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 3,
-        "goalsAgainst": 1,
+        "goalsAgainst": 2,
         "points": 3,
         "groupPosition": 2
       },
