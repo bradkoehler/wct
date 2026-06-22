@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:47:40.575Z",
+  "lastUpdated": "2026-06-22T21:32:11.344Z",
   "groups": {
     "A": [
       "MEX",
@@ -50,8 +50,8 @@
       "KSA"
     ],
     "I": [
-      "NOR",
       "FRA",
+      "NOR",
       "SEN",
       "IRQ"
     ],
@@ -774,6 +774,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "FRA": {
+      "id": "FRA",
+      "name": "France",
+      "group": "I",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "points": 6,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "IRQ",
+        "opponentName": "Iraq",
+        "utcDate": "2026-06-22T21:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "NOR": {
       "id": "NOR",
       "name": "Norway",
@@ -787,34 +809,12 @@
         "goalsFor": 4,
         "goalsAgainst": 1,
         "points": 3,
-        "groupPosition": 1
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "SEN",
         "opponentName": "Senegal",
         "utcDate": "2026-06-23T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "FRA": {
-      "id": "FRA",
-      "name": "France",
-      "group": "I",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 1,
-        "points": 3,
-        "groupPosition": 2
-      },
-      "nextFixture": {
-        "opponentId": "IRQ",
-        "opponentName": "Iraq",
-        "utcDate": "2026-06-22T21:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -846,12 +846,12 @@
       "group": "I",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 4,
+        "goalsAgainst": 5,
         "points": 0,
         "groupPosition": 4
       },
@@ -872,15 +872,15 @@
         "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 5,
         "goalsAgainst": 0,
         "points": 6,
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "AUT",
-        "opponentName": "Austria",
-        "utcDate": "2026-06-22T17:00:00Z",
+        "opponentId": "JOR",
+        "opponentName": "Jordan",
+        "utcDate": "2026-06-28T02:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -895,14 +895,14 @@
         "drawn": 0,
         "lost": 1,
         "goalsFor": 3,
-        "goalsAgainst": 2,
+        "goalsAgainst": 3,
         "points": 3,
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "ARG",
-        "opponentName": "Argentina",
-        "utcDate": "2026-06-22T17:00:00Z",
+        "opponentId": "ALG",
+        "opponentName": "Algeria",
+        "utcDate": "2026-06-28T02:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
