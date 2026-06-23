@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:21:45.528Z",
+  "lastUpdated": "2026-06-23T01:31:25.467Z",
   "groups": {
     "A": [
       "MEX",
@@ -50,8 +50,8 @@
       "KSA"
     ],
     "I": [
-      "FRA",
       "NOR",
+      "FRA",
       "SEN",
       "IRQ"
     ],
@@ -779,6 +779,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "NOR": {
+      "id": "NOR",
+      "name": "Norway",
+      "group": "I",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 2,
+        "points": 6,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "SEN",
+        "opponentName": "Senegal",
+        "utcDate": "2026-06-23T00:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "FRA": {
       "id": "FRA",
       "name": "France",
@@ -789,37 +811,15 @@
         "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 6,
         "goalsAgainst": 1,
         "points": 6,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "IRQ",
-        "opponentName": "Iraq",
-        "utcDate": "2026-06-22T21:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "NOR": {
-      "id": "NOR",
-      "name": "Norway",
-      "group": "I",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 1,
-        "points": 3,
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "SEN",
-        "opponentName": "Senegal",
-        "utcDate": "2026-06-23T00:00:00Z",
+        "opponentId": "NOR",
+        "opponentName": "Norway",
+        "utcDate": "2026-06-26T19:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -829,12 +829,12 @@
       "group": "I",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 3,
+        "lost": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
         "points": 0,
         "groupPosition": 3
       },
@@ -856,14 +856,14 @@
         "drawn": 0,
         "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 5,
+        "goalsAgainst": 7,
         "points": 0,
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-06-22T21:00:00Z",
+        "opponentId": "SEN",
+        "opponentName": "Senegal",
+        "utcDate": "2026-06-26T19:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
