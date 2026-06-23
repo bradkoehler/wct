@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T20:39:46.450Z",
+  "lastUpdated": "2026-06-23T22:16:06.033Z",
   "groups": {
     "A": [
       "MEX",
@@ -1054,9 +1054,9 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "GHA",
-        "opponentName": "Ghana",
-        "utcDate": "2026-06-23T20:00:00Z",
+        "opponentId": "PAN",
+        "opponentName": "Panama",
+        "utcDate": "2026-06-27T21:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1076,9 +1076,9 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-06-23T20:00:00Z",
+        "opponentId": "CRO",
+        "opponentName": "Croatia",
+        "utcDate": "2026-06-27T21:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
