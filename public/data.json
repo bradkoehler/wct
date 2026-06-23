@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T01:31:25.467Z",
+  "lastUpdated": "2026-06-23T06:09:46.793Z",
   "groups": {
     "A": [
       "MEX",
@@ -50,16 +50,16 @@
       "KSA"
     ],
     "I": [
-      "NOR",
       "FRA",
+      "NOR",
       "SEN",
       "IRQ"
     ],
     "J": [
       "ARG",
       "AUT",
-      "JOR",
-      "ALG"
+      "ALG",
+      "JOR"
     ],
     "K": [
       "COL",
@@ -779,28 +779,6 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "NOR": {
-      "id": "NOR",
-      "name": "Norway",
-      "group": "I",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 2,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 2,
-        "points": 6,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "SEN",
-        "opponentName": "Senegal",
-        "utcDate": "2026-06-23T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "FRA": {
       "id": "FRA",
       "name": "France",
@@ -814,11 +792,33 @@
         "goalsFor": 6,
         "goalsAgainst": 1,
         "points": 6,
-        "groupPosition": 2
+        "groupPosition": 1
       },
       "nextFixture": {
         "opponentId": "NOR",
         "opponentName": "Norway",
+        "utcDate": "2026-06-26T19:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "NOR": {
+      "id": "NOR",
+      "name": "Norway",
+      "group": "I",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "points": 6,
+        "groupPosition": 2
+      },
+      "nextFixture": {
+        "opponentId": "FRA",
+        "opponentName": "France",
         "utcDate": "2026-06-26T19:00:00Z",
         "stage": "GROUP_STAGE"
       }
@@ -833,15 +833,15 @@
         "won": 0,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 2,
+        "goalsFor": 3,
         "goalsAgainst": 6,
         "points": 0,
         "groupPosition": 3
       },
       "nextFixture": {
-        "opponentId": "NOR",
-        "opponentName": "Norway",
-        "utcDate": "2026-06-23T00:00:00Z",
+        "opponentId": "IRQ",
+        "opponentName": "Iraq",
+        "utcDate": "2026-06-26T19:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -911,47 +911,47 @@
         "stage": "GROUP_STAGE"
       }
     },
-    "JOR": {
-      "id": "JOR",
-      "name": "Jordan",
-      "group": "J",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 3,
-        "points": 0,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "ALG",
-        "opponentName": "Algeria",
-        "utcDate": "2026-06-23T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
     "ALG": {
       "id": "ALG",
       "name": "Algeria",
       "group": "J",
       "status": "active",
       "stats": {
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 4,
+        "points": 3,
+        "groupPosition": 3
+      },
+      "nextFixture": {
+        "opponentId": "AUT",
+        "opponentName": "Austria",
+        "utcDate": "2026-06-28T02:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
+    "JOR": {
+      "id": "JOR",
+      "name": "Jordan",
+      "group": "J",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
         "points": 0,
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "JOR",
-        "opponentName": "Jordan",
-        "utcDate": "2026-06-23T03:00:00Z",
+        "opponentId": "ARG",
+        "opponentName": "Argentina",
+        "utcDate": "2026-06-28T02:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
