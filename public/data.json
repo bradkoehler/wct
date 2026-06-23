@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T18:21:24.965Z",
+  "lastUpdated": "2026-06-23T20:39:46.450Z",
   "groups": {
     "A": [
       "MEX",
@@ -465,7 +465,7 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "CUR",
+        "opponentId": "CUW",
         "opponentName": "Curaçao",
         "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
@@ -508,7 +508,12 @@
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CIV",
+        "opponentName": "Ivory Coast",
+        "utcDate": "2026-06-25T20:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "NED": {
       "id": "NED",
@@ -955,15 +960,15 @@
         "won": 1,
         "drawn": 1,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 6,
         "goalsAgainst": 1,
         "points": 4,
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "UZB",
-        "opponentName": "Uzbekistan",
-        "utcDate": "2026-06-23T17:00:00Z",
+        "opponentId": "COL",
+        "opponentName": "Colombia",
+        "utcDate": "2026-06-27T23:30:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1022,14 +1027,14 @@
         "drawn": 0,
         "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 6,
+        "goalsAgainst": 8,
         "points": 0,
         "groupPosition": 4
       },
       "nextFixture": {
-        "opponentId": "POR",
-        "opponentName": "Portugal",
-        "utcDate": "2026-06-23T17:00:00Z",
+        "opponentId": "COD",
+        "opponentName": "Congo DR",
+        "utcDate": "2026-06-27T23:30:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1039,13 +1044,13 @@
       "group": "L",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "goalsFor": 4,
         "goalsAgainst": 2,
-        "points": 3,
+        "points": 4,
         "groupPosition": 1
       },
       "nextFixture": {
@@ -1061,13 +1066,13 @@
       "group": "L",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "goalsFor": 1,
         "goalsAgainst": 0,
-        "points": 3,
+        "points": 4,
         "groupPosition": 2
       },
       "nextFixture": {
