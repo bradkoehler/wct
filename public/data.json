@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T16:10:31.856Z",
+  "lastUpdated": "2026-06-23T18:21:24.965Z",
   "groups": {
     "A": [
       "MEX",
@@ -62,9 +62,9 @@
       "JOR"
     ],
     "K": [
+      "POR",
       "COL",
       "COD",
-      "POR",
       "UZB"
     ],
     "L": [
@@ -465,7 +465,7 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "CUW",
+        "opponentId": "CUR",
         "opponentName": "Curaçao",
         "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
@@ -508,12 +508,7 @@
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "NED": {
       "id": "NED",
@@ -950,6 +945,28 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "POR": {
+      "id": "POR",
+      "name": "Portugal",
+      "group": "K",
+      "status": "active",
+      "stats": {
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 1,
+        "points": 4,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "UZB",
+        "opponentName": "Uzbekistan",
+        "utcDate": "2026-06-23T17:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "COL": {
       "id": "COL",
       "name": "Colombia",
@@ -963,7 +980,7 @@
         "goalsFor": 3,
         "goalsAgainst": 1,
         "points": 3,
-        "groupPosition": 1
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "COD",
@@ -985,34 +1002,12 @@
         "goalsFor": 1,
         "goalsAgainst": 1,
         "points": 1,
-        "groupPosition": 2
+        "groupPosition": 3
       },
       "nextFixture": {
         "opponentId": "COL",
         "opponentName": "Colombia",
         "utcDate": "2026-06-24T02:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "POR": {
-      "id": "POR",
-      "name": "Portugal",
-      "group": "K",
-      "status": "active",
-      "stats": {
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 1,
-        "groupPosition": 2
-      },
-      "nextFixture": {
-        "opponentId": "UZB",
-        "opponentName": "Uzbekistan",
-        "utcDate": "2026-06-23T17:00:00Z",
         "stage": "GROUP_STAGE"
       }
     },
@@ -1022,12 +1017,12 @@
       "group": "K",
       "status": "active",
       "stats": {
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 3,
+        "goalsAgainst": 6,
         "points": 0,
         "groupPosition": 4
       },
