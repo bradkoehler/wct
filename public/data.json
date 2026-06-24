@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T21:24:47.153Z",
+  "lastUpdated": "2026-06-24T22:48:26.238Z",
   "groups": {
     "A": [
       "MEX",
@@ -237,13 +237,13 @@
       "group": "C",
       "status": "active",
       "stats": {
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 5,
         "goalsAgainst": 1,
-        "points": 4,
+        "points": 7,
         "groupPosition": 1
       },
       "nextFixture": {
@@ -259,12 +259,12 @@
       "group": "C",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
         "drawn": 1,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 2,
-        "goalsAgainst": 1,
+        "goalsAgainst": 2,
         "points": 4,
         "groupPosition": 2
       },
@@ -281,12 +281,12 @@
       "group": "C",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsAgainst": 2,
         "points": 3,
         "groupPosition": 3
       },
@@ -303,13 +303,13 @@
       "group": "C",
       "status": "active",
       "stats": {
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 0,
+        "goalsFor": 1,
         "goalsAgainst": 4,
-        "points": 0,
+        "points": 3,
         "groupPosition": 4
       },
       "nextFixture": {
