@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T19:52:24.291Z",
+  "lastUpdated": "2026-06-24T21:24:47.153Z",
   "groups": {
     "A": [
       "MEX",
@@ -8,8 +8,8 @@
       "RSA"
     ],
     "B": [
-      "CAN",
       "SUI",
+      "CAN",
       "BIH",
       "QAT"
     ],
@@ -163,6 +163,23 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "SUI": {
+      "id": "SUI",
+      "name": "Switzerland",
+      "group": "B",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "points": 7,
+        "groupPosition": 1
+      },
+      "nextFixture": null
+    },
     "CAN": {
       "id": "CAN",
       "name": "Canada",
@@ -171,41 +188,14 @@
       "stats": {
         "played": 3,
         "won": 1,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 1,
-        "points": 5,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "SUI",
-        "opponentName": "Switzerland",
-        "utcDate": "2026-06-24T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "SUI": {
-      "id": "SUI",
-      "name": "Switzerland",
-      "group": "B",
-      "status": "active",
-      "stats": {
-        "played": 3,
-        "won": 1,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
-        "points": 5,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 3,
+        "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CAN",
-        "opponentName": "Canada",
-        "utcDate": "2026-06-24T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "BIH": {
       "id": "BIH",
@@ -217,17 +207,12 @@
         "won": 1,
         "drawn": 1,
         "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 5,
+        "goalsFor": 5,
+        "goalsAgainst": 6,
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "QAT",
-        "opponentName": "Qatar",
-        "utcDate": "2026-06-24T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "QAT": {
       "id": "QAT",
@@ -239,17 +224,12 @@
         "won": 0,
         "drawn": 1,
         "lost": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 8,
+        "goalsFor": 2,
+        "goalsAgainst": 10,
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "BIH",
-        "opponentName": "Bosnia-Herzegovina",
-        "utcDate": "2026-06-24T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "BRA": {
       "id": "BRA",
