@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T10:52:36.142Z",
+  "lastUpdated": "2026-06-24T13:23:53.674Z",
   "groups": {
     "A": [
       "MEX",
@@ -707,7 +707,7 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "URY",
+        "opponentId": "URU",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-27T00:00:00Z",
         "stage": "GROUP_STAGE"
@@ -728,7 +728,12 @@
         "points": 2,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "ESP",
+        "opponentName": "Spain",
+        "utcDate": "2026-06-27T00:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
     },
     "CPV": {
       "id": "CPV",
