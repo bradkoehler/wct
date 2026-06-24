@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T13:23:53.674Z",
+  "lastUpdated": "2026-06-24T15:42:36.429Z",
   "groups": {
     "A": [
       "MEX",
@@ -465,7 +465,7 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": "CUW",
+        "opponentId": "CUR",
         "opponentName": "Curaçao",
         "utcDate": "2026-06-25T20:00:00Z",
         "stage": "GROUP_STAGE"
@@ -508,12 +508,7 @@
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "NED": {
       "id": "NED",
@@ -707,7 +702,7 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "URU",
+        "opponentId": "URY",
         "opponentName": "Uruguay",
         "utcDate": "2026-06-27T00:00:00Z",
         "stage": "GROUP_STAGE"
@@ -728,12 +723,7 @@
         "points": 2,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-06-27T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
