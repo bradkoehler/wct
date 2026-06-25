@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T08:24:31.259Z",
+  "lastUpdated": "2026-06-25T11:15:58.173Z",
   "groups": {
     "A": [
       "MEX",
@@ -90,7 +90,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-01T01:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "RSA": {
       "id": "RSA",
