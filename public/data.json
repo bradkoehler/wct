@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-25T00:15:14.030Z",
+  "lastUpdated": "2026-06-25T04:46:31.751Z",
   "groups": {
     "A": [
       "MEX",
+      "RSA",
       "KOR",
-      "CZE",
-      "RSA"
+      "CZE"
     ],
     "B": [
       "SUI",
@@ -81,65 +81,16 @@
       "group": "A",
       "status": "active",
       "stats": {
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 3,
+        "goalsFor": 6,
         "goalsAgainst": 0,
-        "points": 6,
+        "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "CZE",
-        "opponentName": "Czechia",
-        "utcDate": "2026-06-25T01:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "KOR": {
-      "id": "KOR",
-      "name": "South Korea",
-      "group": "A",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 1,
-        "drawn": 0,
-        "lost": 1,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
-        "points": 3,
-        "groupPosition": 2
-      },
-      "nextFixture": {
-        "opponentId": "RSA",
-        "opponentName": "South Africa",
-        "utcDate": "2026-06-25T01:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "CZE": {
-      "id": "CZE",
-      "name": "Czechia",
-      "group": "A",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 0,
-        "drawn": 1,
-        "lost": 1,
-        "goalsFor": 2,
-        "goalsAgainst": 3,
-        "points": 1,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "MEX",
-        "opponentName": "Mexico",
-        "utcDate": "2026-06-25T01:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "RSA": {
       "id": "RSA",
@@ -147,21 +98,50 @@
       "group": "A",
       "status": "active",
       "stats": {
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 1,
         "lost": 1,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 3,
+        "points": 4,
+        "groupPosition": 2
+      },
+      "nextFixture": null
+    },
+    "KOR": {
+      "id": "KOR",
+      "name": "South Korea",
+      "group": "A",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "points": 3,
+        "groupPosition": 3
+      },
+      "nextFixture": null
+    },
+    "CZE": {
+      "id": "CZE",
+      "name": "Czechia",
+      "group": "A",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "KOR",
-        "opponentName": "South Korea",
-        "utcDate": "2026-06-25T01:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "SUI": {
       "id": "SUI",
