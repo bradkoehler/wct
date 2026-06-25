@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T20:58:53.410Z",
+  "lastUpdated": "2026-06-25T22:39:59.388Z",
   "groups": {
     "A": [
       "MEX",
@@ -375,19 +375,14 @@
       "stats": {
         "played": 3,
         "won": 2,
-        "drawn": 1,
-        "lost": 0,
+        "drawn": 0,
+        "lost": 1,
         "goalsFor": 10,
-        "goalsAgainst": 3,
-        "points": 7,
+        "goalsAgainst": 4,
+        "points": 6,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ECU",
-        "opponentName": "Ecuador",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "CIV": {
       "id": "CIV",
@@ -399,17 +394,12 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 3,
+        "goalsFor": 4,
         "goalsAgainst": 2,
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CUW",
-        "opponentName": "Curaçao",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "ECU": {
       "id": "ECU",
@@ -418,20 +408,15 @@
       "status": "active",
       "stats": {
         "played": 3,
-        "won": 0,
-        "drawn": 2,
+        "won": 1,
+        "drawn": 1,
         "lost": 1,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 2,
-        "points": 2,
+        "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "GER",
-        "opponentName": "Germany",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "CUW": {
       "id": "CUW",
@@ -444,16 +429,11 @@
         "drawn": 1,
         "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 8,
+        "goalsAgainst": 9,
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-25T20:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "NED": {
       "id": "NED",
