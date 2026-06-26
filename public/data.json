@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T00:11:43.347Z",
+  "lastUpdated": "2026-06-26T04:50:12.191Z",
   "groups": {
     "A": [
       "MEX",
@@ -290,20 +290,20 @@
       "group": "D",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 6,
-        "goalsAgainst": 1,
+        "lost": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
         "points": 6,
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "TUR",
-        "opponentName": "Turkey",
-        "utcDate": "2026-06-26T02:00:00Z",
-        "stage": "GROUP_STAGE"
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-02T00:00:00Z",
+        "stage": "LAST_32"
       }
     },
     "AUS": {
@@ -312,21 +312,16 @@
       "group": "D",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "goalsFor": 2,
         "goalsAgainst": 2,
-        "points": 3,
+        "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "PAR",
-        "opponentName": "Paraguay",
-        "utcDate": "2026-06-26T02:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "PAR": {
       "id": "PAR",
@@ -334,21 +329,16 @@
       "group": "D",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "goalsFor": 2,
         "goalsAgainst": 4,
-        "points": 3,
+        "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "AUS",
-        "opponentName": "Australia",
-        "utcDate": "2026-06-26T02:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "TUR": {
       "id": "TUR",
@@ -356,21 +346,16 @@
       "group": "D",
       "status": "active",
       "stats": {
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 0,
-        "goalsAgainst": 3,
-        "points": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "points": 3,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "USA",
-        "opponentName": "United States",
-        "utcDate": "2026-06-26T02:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "GER": {
       "id": "GER",
@@ -455,17 +440,12 @@
         "won": 2,
         "drawn": 1,
         "lost": 0,
-        "goalsFor": 9,
-        "goalsAgainst": 3,
+        "goalsFor": 10,
+        "goalsAgainst": 4,
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "TUN",
-        "opponentName": "Tunisia",
-        "utcDate": "2026-06-25T23:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "JPN": {
       "id": "JPN",
@@ -477,17 +457,12 @@
         "won": 1,
         "drawn": 2,
         "lost": 0,
-        "goalsFor": 6,
-        "goalsAgainst": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "SWE",
-        "opponentName": "Sweden",
-        "utcDate": "2026-06-25T23:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "SWE": {
       "id": "SWE",
@@ -499,17 +474,12 @@
         "won": 1,
         "drawn": 1,
         "lost": 1,
-        "goalsFor": 6,
-        "goalsAgainst": 6,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "JPN",
-        "opponentName": "Japan",
-        "utcDate": "2026-06-25T23:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "TUN": {
       "id": "TUN",
@@ -521,17 +491,12 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 1,
-        "goalsAgainst": 11,
+        "goalsFor": 2,
+        "goalsAgainst": 12,
         "points": 0,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "NED",
-        "opponentName": "Netherlands",
-        "utcDate": "2026-06-25T23:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "EGY": {
       "id": "EGY",
