@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T20:48:17.500Z",
+  "lastUpdated": "2026-06-26T22:15:50.370Z",
   "groups": {
     "A": [
       "MEX",
@@ -90,7 +90,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-01T01:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "RSA": {
       "id": "RSA",
@@ -107,7 +112,12 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CAN",
+        "opponentName": "Canada",
+        "utcDate": "2026-06-28T19:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "KOR": {
       "id": "KOR",
@@ -158,7 +168,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-03T03:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "CAN": {
       "id": "CAN",
@@ -175,7 +190,12 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "RSA",
+        "opponentName": "South Africa",
+        "utcDate": "2026-06-28T19:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "BIH": {
       "id": "BIH",
@@ -192,7 +212,12 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "USA",
+        "opponentName": "United States",
+        "utcDate": "2026-07-02T00:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "QAT": {
       "id": "QAT",
@@ -226,7 +251,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "JPN",
+        "opponentName": "Japan",
+        "utcDate": "2026-06-29T17:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "MAR": {
       "id": "MAR",
@@ -243,7 +273,12 @@
         "points": 7,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "NED",
+        "opponentName": "Netherlands",
+        "utcDate": "2026-06-30T01:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "SCO": {
       "id": "SCO",
@@ -294,7 +329,12 @@
         "points": 6,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "BIH",
+        "opponentName": "Bosnia-Herzegovina",
+        "utcDate": "2026-07-02T00:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "AUS": {
       "id": "AUS",
@@ -311,7 +351,12 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-03T18:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "PAR": {
       "id": "PAR",
@@ -362,7 +407,12 @@
         "points": 6,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-06-29T20:30:00Z",
+        "stage": "LAST_32"
+      }
     },
     "CIV": {
       "id": "CIV",
@@ -430,7 +480,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "MAR",
+        "opponentName": "Morocco",
+        "utcDate": "2026-06-30T01:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "JPN": {
       "id": "JPN",
@@ -447,7 +502,12 @@
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "BRA",
+        "opponentName": "Brazil",
+        "utcDate": "2026-06-29T17:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "SWE": {
       "id": "SWE",
@@ -669,17 +729,12 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 9,
+        "goalsFor": 10,
         "goalsAgainst": 2,
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "NOR",
-        "opponentName": "Norway",
-        "utcDate": "2026-06-26T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "NOR": {
       "id": "NOR",
@@ -692,16 +747,11 @@
         "drawn": 0,
         "lost": 1,
         "goalsFor": 8,
-        "goalsAgainst": 6,
+        "goalsAgainst": 7,
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-06-26T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "SEN": {
       "id": "SEN",
@@ -713,17 +763,12 @@
         "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 6,
+        "goalsFor": 8,
         "goalsAgainst": 6,
         "points": 3,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "IRQ",
-        "opponentName": "Iraq",
-        "utcDate": "2026-06-26T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "IRQ": {
       "id": "IRQ",
@@ -736,16 +781,11 @@
         "drawn": 0,
         "lost": 3,
         "goalsFor": 1,
-        "goalsAgainst": 10,
+        "goalsAgainst": 12,
         "points": 0,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "SEN",
-        "opponentName": "Senegal",
-        "utcDate": "2026-06-26T19:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "ARG": {
       "id": "ARG",
