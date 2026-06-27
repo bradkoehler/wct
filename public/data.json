@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:04:55.494Z",
+  "lastUpdated": "2026-06-27T23:34:36.290Z",
   "groups": {
     "A": [
       "MEX",
@@ -68,8 +68,8 @@
       "UZB"
     ],
     "L": [
-      "CRO",
       "ENG",
+      "CRO",
       "GHA",
       "PAN"
     ]
@@ -846,13 +846,13 @@
       "group": "K",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
         "goalsFor": 4,
         "goalsAgainst": 1,
-        "points": 6,
+        "points": 7,
         "groupPosition": 1
       },
       "nextFixture": {
@@ -868,13 +868,13 @@
       "group": "K",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "goalsFor": 6,
         "goalsAgainst": 1,
-        "points": 4,
+        "points": 5,
         "groupPosition": 2
       },
       "nextFixture": {
@@ -890,13 +890,13 @@
       "group": "K",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 1,
         "goalsFor": 1,
         "goalsAgainst": 2,
-        "points": 1,
+        "points": 2,
         "groupPosition": 3
       },
       "nextFixture": {
@@ -912,13 +912,13 @@
       "group": "K",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 2,
         "goalsFor": 1,
         "goalsAgainst": 8,
-        "points": 0,
+        "points": 1,
         "groupPosition": 4
       },
       "nextFixture": {
@@ -927,6 +927,23 @@
         "utcDate": "2026-06-27T23:30:00Z",
         "stage": "GROUP_STAGE"
       }
+    },
+    "ENG": {
+      "id": "ENG",
+      "name": "England",
+      "group": "L",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "points": 7,
+        "groupPosition": 1
+      },
+      "nextFixture": null
     },
     "CRO": {
       "id": "CRO",
@@ -938,39 +955,12 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 4,
-        "goalsAgainst": 4,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
         "points": 6,
-        "groupPosition": 1
-      },
-      "nextFixture": {
-        "opponentId": "GHA",
-        "opponentName": "Ghana",
-        "utcDate": "2026-06-27T21:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "ENG": {
-      "id": "ENG",
-      "name": "England",
-      "group": "L",
-      "status": "active",
-      "stats": {
-        "played": 3,
-        "won": 1,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 2,
-        "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "PAN",
-        "opponentName": "Panama",
-        "utcDate": "2026-06-27T21:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "GHA": {
       "id": "GHA",
@@ -982,17 +972,12 @@
         "won": 1,
         "drawn": 1,
         "lost": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "CRO",
-        "opponentName": "Croatia",
-        "utcDate": "2026-06-27T21:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "PAN": {
       "id": "PAN",
@@ -1002,19 +987,14 @@
       "stats": {
         "played": 3,
         "won": 0,
-        "drawn": 1,
-        "lost": 2,
+        "drawn": 0,
+        "lost": 3,
         "goalsFor": 0,
-        "goalsAgainst": 2,
-        "points": 1,
+        "goalsAgainst": 4,
+        "points": 0,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-06-27T21:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     }
   }
 }
