@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T03:38:21.051Z",
+  "lastUpdated": "2026-06-27T06:53:57.296Z",
   "groups": {
     "A": [
       "MEX",
@@ -429,7 +429,12 @@
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-06-30T17:00:00Z",
+        "stage": "LAST_32"
+      }
     },
     "ECU": {
       "id": "ECU",
@@ -553,17 +558,12 @@
         "won": 1,
         "drawn": 2,
         "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
         "points": 5,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "NZL",
-        "opponentName": "New Zealand",
-        "utcDate": "2026-06-27T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "EGY": {
       "id": "EGY",
@@ -580,12 +580,7 @@
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "IRN",
-        "opponentName": "Iran",
-        "utcDate": "2026-06-27T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "IRN": {
       "id": "IRN",
@@ -602,12 +597,7 @@
         "points": 3,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "EGY",
-        "opponentName": "Egypt",
-        "utcDate": "2026-06-27T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "NZL": {
       "id": "NZL",
@@ -619,17 +609,12 @@
         "won": 0,
         "drawn": 1,
         "lost": 2,
-        "goalsFor": 3,
-        "goalsAgainst": 6,
+        "goalsFor": 4,
+        "goalsAgainst": 10,
         "points": 1,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "BEL",
-        "opponentName": "Belgium",
-        "utcDate": "2026-06-27T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "ESP": {
       "id": "ESP",
