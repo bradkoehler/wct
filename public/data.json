@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T23:43:38.608Z",
+  "lastUpdated": "2026-06-27T03:38:21.051Z",
   "groups": {
     "A": [
       "MEX",
@@ -38,15 +38,15 @@
       "TUN"
     ],
     "G": [
+      "BEL",
       "EGY",
       "IRN",
-      "BEL",
       "NZL"
     ],
     "H": [
       "ESP",
-      "URU",
       "CPV",
+      "URU",
       "KSA"
     ],
     "I": [
@@ -543,20 +543,42 @@
       },
       "nextFixture": null
     },
+    "BEL": {
+      "id": "BEL",
+      "name": "Belgium",
+      "group": "G",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "points": 5,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "NZL",
+        "opponentName": "New Zealand",
+        "utcDate": "2026-06-27T03:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "EGY": {
       "id": "EGY",
       "name": "Egypt",
       "group": "G",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 2,
-        "points": 4,
-        "groupPosition": 1
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "points": 5,
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "IRN",
@@ -571,40 +593,18 @@
       "group": "G",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 2,
-        "points": 2,
-        "groupPosition": 2
+        "goalsFor": 3,
+        "goalsAgainst": 3,
+        "points": 3,
+        "groupPosition": 3
       },
       "nextFixture": {
         "opponentId": "EGY",
         "opponentName": "Egypt",
-        "utcDate": "2026-06-27T03:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "BEL": {
-      "id": "BEL",
-      "name": "Belgium",
-      "group": "G",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 0,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 2,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "NZL",
-        "opponentName": "New Zealand",
         "utcDate": "2026-06-27T03:00:00Z",
         "stage": "GROUP_STAGE"
       }
@@ -615,12 +615,12 @@
       "group": "G",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 1,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 3,
-        "goalsAgainst": 5,
+        "goalsAgainst": 6,
         "points": 1,
         "groupPosition": 4
       },
@@ -637,43 +637,16 @@
       "group": "H",
       "status": "active",
       "stats": {
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 5,
         "goalsAgainst": 0,
-        "points": 4,
+        "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "URU",
-        "opponentName": "Uruguay",
-        "utcDate": "2026-06-27T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "URU": {
-      "id": "URU",
-      "name": "Uruguay",
-      "group": "H",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 0,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "points": 2,
-        "groupPosition": 2
-      },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-06-27T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
@@ -681,21 +654,33 @@
       "group": "H",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 0,
         "goalsFor": 2,
         "goalsAgainst": 2,
+        "points": 3,
+        "groupPosition": 2
+      },
+      "nextFixture": null
+    },
+    "URU": {
+      "id": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 0,
+        "drawn": 2,
+        "lost": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
         "points": 2,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "KSA",
-        "opponentName": "Saudi Arabia",
-        "utcDate": "2026-06-27T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "KSA": {
       "id": "KSA",
@@ -703,21 +688,16 @@
       "group": "H",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 1,
         "goalsFor": 1,
         "goalsAgainst": 5,
-        "points": 1,
+        "points": 2,
         "groupPosition": 4
       },
-      "nextFixture": {
-        "opponentId": "CPV",
-        "opponentName": "Cape Verde Islands",
-        "utcDate": "2026-06-27T00:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
+      "nextFixture": null
     },
     "FRA": {
       "id": "FRA",
