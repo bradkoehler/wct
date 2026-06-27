@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T20:38:21.645Z",
+  "lastUpdated": "2026-06-27T22:04:55.494Z",
   "groups": {
     "A": [
       "MEX",
@@ -68,9 +68,9 @@
       "UZB"
     ],
     "L": [
+      "CRO",
       "ENG",
       "GHA",
-      "CRO",
       "PAN"
     ]
   },
@@ -928,20 +928,42 @@
         "stage": "GROUP_STAGE"
       }
     },
+    "CRO": {
+      "id": "CRO",
+      "name": "Croatia",
+      "group": "L",
+      "status": "active",
+      "stats": {
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "points": 6,
+        "groupPosition": 1
+      },
+      "nextFixture": {
+        "opponentId": "GHA",
+        "opponentName": "Ghana",
+        "utcDate": "2026-06-27T21:00:00Z",
+        "stage": "GROUP_STAGE"
+      }
+    },
     "ENG": {
       "id": "ENG",
       "name": "England",
       "group": "L",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "goalsFor": 4,
         "goalsAgainst": 2,
-        "points": 4,
-        "groupPosition": 1
+        "points": 5,
+        "groupPosition": 2
       },
       "nextFixture": {
         "opponentId": "PAN",
@@ -956,40 +978,18 @@
       "group": "L",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 1,
         "drawn": 1,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 1,
-        "goalsAgainst": 0,
+        "goalsAgainst": 1,
         "points": 4,
-        "groupPosition": 2
+        "groupPosition": 3
       },
       "nextFixture": {
         "opponentId": "CRO",
         "opponentName": "Croatia",
-        "utcDate": "2026-06-27T21:00:00Z",
-        "stage": "GROUP_STAGE"
-      }
-    },
-    "CRO": {
-      "id": "CRO",
-      "name": "Croatia",
-      "group": "L",
-      "status": "active",
-      "stats": {
-        "played": 2,
-        "won": 1,
-        "drawn": 0,
-        "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 4,
-        "points": 3,
-        "groupPosition": 3
-      },
-      "nextFixture": {
-        "opponentId": "GHA",
-        "opponentName": "Ghana",
         "utcDate": "2026-06-27T21:00:00Z",
         "stage": "GROUP_STAGE"
       }
@@ -1000,13 +1000,13 @@
       "group": "L",
       "status": "active",
       "stats": {
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 2,
         "goalsFor": 0,
         "goalsAgainst": 2,
-        "points": 0,
+        "points": 1,
         "groupPosition": 4
       },
       "nextFixture": {
