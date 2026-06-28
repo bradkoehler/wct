@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T20:15:18.383Z",
+  "lastUpdated": "2026-06-28T21:38:33.057Z",
   "groups": {
     "A": [
       "MEX",
@@ -112,12 +112,7 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CAN",
-        "opponentName": "Canada",
-        "utcDate": "2026-06-28T19:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "KOR": {
       "id": "KOR",
@@ -190,12 +185,7 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "RSA",
-        "opponentName": "South Africa",
-        "utcDate": "2026-06-28T19:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "BIH": {
       "id": "BIH",
