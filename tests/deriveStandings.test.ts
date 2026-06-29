@@ -32,6 +32,7 @@ const data: TournamentData = {
 	groups: {
 		A: ["BRA", "CRO"],
 	},
+	knockoutMatches: [],
 	teams: {
 		BRA: makeTeam({
 			id: "BRA",
