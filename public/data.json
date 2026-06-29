@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T21:55:10.214Z",
+  "lastUpdated": "2026-06-29T23:00:18.257Z",
   "groups": {
     "A": [
       "MEX",
@@ -1061,12 +1061,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "homeTeamId": "GER",
       "homeTeamName": "Germany",
       "awayTeamId": "PAR",
       "awayTeamName": "Paraguay",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
