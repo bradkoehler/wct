@@ -1,6 +1,7 @@
 import { writeFileSync } from "node:fs";
 import type {
 	Fixture,
+	KnockoutMatch,
 	Team,
 	TeamStatus,
 	TournamentData,
@@ -11,6 +12,7 @@ const API_BASE = "https://api.football-data.org/v4";
 const OUTPUT_PATH = new URL("../public/data.json", import.meta.url);
 
 const KNOCKOUT_STAGES = new Set([
+	"LAST_32",
 	"LAST_16",
 	"QUARTER_FINALS",
 	"SEMI_FINALS",
@@ -94,6 +96,18 @@ function deriveTeamStatus(tla: string, matches: ApiMatch[]): TeamStatus {
 	});
 
 	if (lostKnockoutMatch) return "knocked_out";
+
+	// Teams eliminated at the end of the group stage never appear in any knockout
+	// match. Once all 32 LAST_16 slots are confirmed (no TBDs), a team absent
+	// from LAST_16 was knocked out in the group stage.
+	const last32Teams = new Set(
+		matches
+			.filter((m) => m.stage === "LAST_32")
+			.flatMap((m) => [m.homeTeam.tla, m.awayTeam.tla])
+			.filter(Boolean),
+	);
+	if (last32Teams.size === 32 && !last32Teams.has(tla)) return "knocked_out";
+
 	return "active";
 }
 
@@ -168,10 +182,27 @@ async function main() {
 		}
 	}
 
+	const knockoutMatches: KnockoutMatch[] = matchesRes.matches
+		.filter((m) => KNOCKOUT_STAGES.has(m.stage))
+		.sort(
+			(a, b) => new Date(a.utcDate).getTime() - new Date(b.utcDate).getTime(),
+		)
+		.map((m) => ({
+			stage: m.stage as KnockoutMatch["stage"],
+			utcDate: m.utcDate,
+			status: m.status,
+			homeTeamId: m.homeTeam.tla || null,
+			homeTeamName: m.homeTeam.name || null,
+			awayTeamId: m.awayTeam.tla || null,
+			awayTeamName: m.awayTeam.name || null,
+			winner: m.score.winner ?? null,
+		}));
+
 	const data: TournamentData = {
 		lastUpdated: new Date().toISOString(),
 		groups,
 		teams,
+		knockoutMatches,
 	};
 
 	writeFileSync(OUTPUT_PATH, `${JSON.stringify(data, null, 2)}\n`);

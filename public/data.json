@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T12:01:10.483Z",
+  "lastUpdated": "2026-06-29T13:53:05.404Z",
   "groups": {
     "A": [
       "MEX",
@@ -101,7 +101,7 @@
       "id": "RSA",
       "name": "South Africa",
       "group": "A",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -118,7 +118,7 @@
       "id": "KOR",
       "name": "South Korea",
       "group": "A",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -135,7 +135,7 @@
       "id": "CZE",
       "name": "Czechia",
       "group": "A",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -218,7 +218,7 @@
       "id": "QAT",
       "name": "Qatar",
       "group": "B",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -279,7 +279,7 @@
       "id": "SCO",
       "name": "Scotland",
       "group": "C",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -296,7 +296,7 @@
       "id": "HAI",
       "name": "Haiti",
       "group": "C",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -379,7 +379,7 @@
       "id": "TUR",
       "name": "Turkey",
       "group": "D",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -462,7 +462,7 @@
       "id": "CUW",
       "name": "Curaçao",
       "group": "E",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -545,7 +545,7 @@
       "id": "TUN",
       "name": "Tunisia",
       "group": "F",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -606,7 +606,7 @@
       "id": "IRN",
       "name": "Iran",
       "group": "G",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -623,7 +623,7 @@
       "id": "NZL",
       "name": "New Zealand",
       "group": "G",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -684,7 +684,7 @@
       "id": "URU",
       "name": "Uruguay",
       "group": "H",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -701,7 +701,7 @@
       "id": "KSA",
       "name": "Saudi Arabia",
       "group": "H",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -784,7 +784,7 @@
       "id": "IRQ",
       "name": "Iraq",
       "group": "I",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -867,7 +867,7 @@
       "id": "JOR",
       "name": "Jordan",
       "group": "J",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -950,7 +950,7 @@
       "id": "UZB",
       "name": "Uzbekistan",
       "group": "K",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -1033,7 +1033,7 @@
       "id": "PAN",
       "name": "Panama",
       "group": "L",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -1046,5 +1046,327 @@
       },
       "nextFixture": null
     }
-  }
+  },
+  "knockoutMatches": [
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-06-28T19:00:00Z",
+      "status": "FINISHED",
+      "homeTeamId": "RSA",
+      "homeTeamName": "South Africa",
+      "awayTeamId": "CAN",
+      "awayTeamName": "Canada",
+      "winner": "AWAY_TEAM"
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-06-29T17:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "BRA",
+      "homeTeamName": "Brazil",
+      "awayTeamId": "JPN",
+      "awayTeamName": "Japan",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-06-29T20:30:00Z",
+      "status": "TIMED",
+      "homeTeamId": "GER",
+      "homeTeamName": "Germany",
+      "awayTeamId": "PAR",
+      "awayTeamName": "Paraguay",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-06-30T01:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "NED",
+      "homeTeamName": "Netherlands",
+      "awayTeamId": "MAR",
+      "awayTeamName": "Morocco",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-06-30T17:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "CIV",
+      "homeTeamName": "Ivory Coast",
+      "awayTeamId": "NOR",
+      "awayTeamName": "Norway",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-06-30T21:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "FRA",
+      "homeTeamName": "France",
+      "awayTeamId": "SWE",
+      "awayTeamName": "Sweden",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-01T01:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "MEX",
+      "homeTeamName": "Mexico",
+      "awayTeamId": "ECU",
+      "awayTeamName": "Ecuador",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-01T16:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "ENG",
+      "homeTeamName": "England",
+      "awayTeamId": "COD",
+      "awayTeamName": "Congo DR",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-01T20:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "BEL",
+      "homeTeamName": "Belgium",
+      "awayTeamId": "SEN",
+      "awayTeamName": "Senegal",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-02T00:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "USA",
+      "homeTeamName": "United States",
+      "awayTeamId": "BIH",
+      "awayTeamName": "Bosnia-Herzegovina",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-02T19:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "ESP",
+      "homeTeamName": "Spain",
+      "awayTeamId": "AUT",
+      "awayTeamName": "Austria",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-02T23:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "POR",
+      "homeTeamName": "Portugal",
+      "awayTeamId": "CRO",
+      "awayTeamName": "Croatia",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-03T03:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "SUI",
+      "homeTeamName": "Switzerland",
+      "awayTeamId": "ALG",
+      "awayTeamName": "Algeria",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-03T18:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "AUS",
+      "homeTeamName": "Australia",
+      "awayTeamId": "EGY",
+      "awayTeamName": "Egypt",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-03T22:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "ARG",
+      "homeTeamName": "Argentina",
+      "awayTeamId": "CPV",
+      "awayTeamName": "Cape Verde Islands",
+      "winner": null
+    },
+    {
+      "stage": "LAST_32",
+      "utcDate": "2026-07-04T01:30:00Z",
+      "status": "TIMED",
+      "homeTeamId": "COL",
+      "homeTeamName": "Colombia",
+      "awayTeamId": "GHA",
+      "awayTeamName": "Ghana",
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-04T17:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": "CAN",
+      "homeTeamName": "Canada",
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-04T21:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-05T20:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-06T00:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-06T19:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-07T00:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-07T16:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "LAST_16",
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "QUARTER_FINALS",
+      "utcDate": "2026-07-09T20:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "QUARTER_FINALS",
+      "utcDate": "2026-07-10T19:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "QUARTER_FINALS",
+      "utcDate": "2026-07-11T21:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "QUARTER_FINALS",
+      "utcDate": "2026-07-12T01:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "SEMI_FINALS",
+      "utcDate": "2026-07-14T19:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "SEMI_FINALS",
+      "utcDate": "2026-07-15T19:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "THIRD_PLACE",
+      "utcDate": "2026-07-18T21:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    },
+    {
+      "stage": "FINAL",
+      "utcDate": "2026-07-19T19:00:00Z",
+      "status": "TIMED",
+      "homeTeamId": null,
+      "homeTeamName": null,
+      "awayTeamId": null,
+      "awayTeamName": null,
+      "winner": null
+    }
+  ]
 }

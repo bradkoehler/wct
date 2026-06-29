@@ -27,10 +27,28 @@ export interface Team {
 	nextFixture: Fixture | null;
 }
 
+export interface KnockoutMatch {
+	stage:
+		| "LAST_32"
+		| "LAST_16"
+		| "QUARTER_FINALS"
+		| "SEMI_FINALS"
+		| "THIRD_PLACE"
+		| "FINAL";
+	utcDate: string;
+	status: string;
+	homeTeamId: string | null;
+	homeTeamName: string | null;
+	awayTeamId: string | null;
+	awayTeamName: string | null;
+	winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null;
+}
+
 export interface TournamentData {
 	lastUpdated: string;
 	teams: Record<string, Team>;
 	groups: Record<string, string[]>;
+	knockoutMatches: KnockoutMatch[];
 }
 
 export interface FriendAssignment {

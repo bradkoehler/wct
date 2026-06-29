@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FriendLeaderboard } from "./components/FriendLeaderboard";
 import { GroupTable } from "./components/GroupTable";
+import { KnockoutBracket } from "./components/KnockoutBracket";
 import { Tabs } from "./components/Tabs";
 import { friends } from "./config/teams";
 import {
@@ -10,18 +11,21 @@ import {
 } from "./lib/deriveStandings";
 import type { TournamentData } from "./lib/types";
 
-type View = "leaderboard" | "groups";
+type View = "leaderboard" | "groups" | "bracket";
 
 function App() {
 	const [data, setData] = useState<TournamentData | null>(null);
 	const [error, setError] = useState<string | null>(null);
-	const [view, setView] = useState<View>("leaderboard");
+	const [view, setView] = useState<View>("bracket");
 
 	useEffect(() => {
 		fetch(`${import.meta.env.BASE_URL}data.json`)
 			.then((res) => {
 				if (!res.ok) throw new Error(`Failed to load data (${res.status})`);
-				return res.json() as Promise<TournamentData>;
+				return (res.json() as Promise<TournamentData>).then((parsed) => ({
+					...parsed,
+					knockoutMatches: parsed.knockoutMatches ?? [],
+				}));
 			})
 			.then(setData)
 			.catch((err: Error) => setError(err.message));
@@ -74,14 +78,16 @@ function App() {
 						value={view}
 						onChange={setView}
 						options={[
+							{ value: "bracket", label: "Knockout" },
 							{ value: "leaderboard", label: "Leaderboard" },
 							{ value: "groups", label: "Groups" },
 						]}
 					/>
 
-					{view === "leaderboard" ? (
+					{view === "leaderboard" && (
 						<FriendLeaderboard standings={standings} />
-					) : (
+					)}
+					{view === "groups" && (
 						<section aria-labelledby="groups-heading" className="space-y-4">
 							<h2 id="groups-heading" className="sr-only">
 								Group Stage
@@ -97,6 +103,13 @@ function App() {
 								))}
 							</div>
 						</section>
+					)}
+					{view === "bracket" && (
+						<KnockoutBracket
+							matches={data.knockoutMatches}
+							owners={owners}
+							teams={data.teams}
+						/>
 					)}
 				</>
 			)}
