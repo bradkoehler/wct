@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T18:29:25.323Z",
+  "lastUpdated": "2026-06-29T20:28:32.896Z",
   "groups": {
     "A": [
       "MEX",
@@ -246,12 +246,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "JPN",
-        "opponentName": "Japan",
-        "utcDate": "2026-06-29T17:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "MAR": {
       "id": "MAR",
@@ -501,7 +496,7 @@
       "id": "JPN",
       "name": "Japan",
       "group": "F",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -512,12 +507,7 @@
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "BRA",
-        "opponentName": "Brazil",
-        "utcDate": "2026-06-29T17:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "SWE": {
       "id": "SWE",
@@ -1061,12 +1051,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "BRA",
       "homeTeamName": "Brazil",
       "awayTeamId": "JPN",
       "awayTeamName": "Japan",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
