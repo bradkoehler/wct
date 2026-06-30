@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T04:45:58.981Z",
+  "lastUpdated": "2026-06-30T08:16:26.113Z",
   "groups": {
     "A": [
       "MEX",
@@ -186,8 +186,8 @@
         "groupPosition": 2
       },
       "nextFixture": {
-        "opponentId": null,
-        "opponentName": null,
+        "opponentId": "MAR",
+        "opponentName": "Morocco",
         "utcDate": "2026-07-04T17:00:00Z",
         "stage": "LAST_16"
       }
@@ -246,7 +246,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-05T20:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "MAR": {
       "id": "MAR",
@@ -263,7 +268,12 @@
         "points": 7,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "CAN",
+        "opponentName": "Canada",
+        "utcDate": "2026-07-04T17:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "SCO": {
       "id": "SCO",
@@ -358,7 +368,12 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-04T21:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "TUR": {
       "id": "TUR",
@@ -381,7 +396,7 @@
       "id": "GER",
       "name": "Germany",
       "group": "E",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -459,7 +474,7 @@
       "id": "NED",
       "name": "Netherlands",
       "group": "F",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -1046,7 +1061,7 @@
       "homeTeamName": "Germany",
       "awayTeamId": "PAR",
       "awayTeamName": "Paraguay",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_32",
@@ -1056,7 +1071,7 @@
       "homeTeamName": "Netherlands",
       "awayTeamId": "MAR",
       "awayTeamName": "Morocco",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_32",
@@ -1184,16 +1199,16 @@
       "status": "TIMED",
       "homeTeamId": "CAN",
       "homeTeamName": "Canada",
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "awayTeamId": "MAR",
+      "awayTeamName": "Morocco",
       "winner": null
     },
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-04T21:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
+      "homeTeamId": "PAR",
+      "homeTeamName": "Paraguay",
       "awayTeamId": null,
       "awayTeamName": null,
       "winner": null
@@ -1202,8 +1217,8 @@
       "stage": "LAST_16",
       "utcDate": "2026-07-05T20:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
+      "homeTeamId": "BRA",
+      "homeTeamName": "Brazil",
       "awayTeamId": null,
       "awayTeamName": null,
       "winner": null
