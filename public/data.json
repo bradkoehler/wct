@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T00:16:05.230Z",
+  "lastUpdated": "2026-06-30T04:45:58.981Z",
   "groups": {
     "A": [
       "MEX",
@@ -263,12 +263,7 @@
         "points": 7,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "NED",
-        "opponentName": "Netherlands",
-        "utcDate": "2026-06-30T01:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "SCO": {
       "id": "SCO",
@@ -475,12 +470,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "MAR",
-        "opponentName": "Morocco",
-        "utcDate": "2026-06-30T01:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "JPN": {
       "id": "JPN",
@@ -1061,7 +1051,7 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "homeTeamId": "NED",
       "homeTeamName": "Netherlands",
       "awayTeamId": "MAR",
