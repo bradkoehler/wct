@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T08:16:26.113Z",
+  "lastUpdated": "2026-06-30T11:46:00.995Z",
   "groups": {
     "A": [
       "MEX",
@@ -1041,7 +1041,8 @@
       "homeTeamName": "South Africa",
       "awayTeamId": "CAN",
       "awayTeamName": "Canada",
-      "winner": "AWAY_TEAM"
+      "winner": "AWAY_TEAM",
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1051,7 +1052,8 @@
       "homeTeamName": "Brazil",
       "awayTeamId": "JPN",
       "awayTeamName": "Japan",
-      "winner": "HOME_TEAM"
+      "winner": "HOME_TEAM",
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1061,7 +1063,8 @@
       "homeTeamName": "Germany",
       "awayTeamId": "PAR",
       "awayTeamName": "Paraguay",
-      "winner": "AWAY_TEAM"
+      "winner": "AWAY_TEAM",
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1071,7 +1074,8 @@
       "homeTeamName": "Netherlands",
       "awayTeamId": "MAR",
       "awayTeamName": "Morocco",
-      "winner": "AWAY_TEAM"
+      "winner": "AWAY_TEAM",
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1081,7 +1085,8 @@
       "homeTeamName": "Ivory Coast",
       "awayTeamId": "NOR",
       "awayTeamName": "Norway",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1091,7 +1096,8 @@
       "homeTeamName": "France",
       "awayTeamId": "SWE",
       "awayTeamName": "Sweden",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1101,7 +1107,8 @@
       "homeTeamName": "Mexico",
       "awayTeamId": "ECU",
       "awayTeamName": "Ecuador",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1111,7 +1118,8 @@
       "homeTeamName": "England",
       "awayTeamId": "COD",
       "awayTeamName": "Congo DR",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1121,7 +1129,8 @@
       "homeTeamName": "Belgium",
       "awayTeamId": "SEN",
       "awayTeamName": "Senegal",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1131,7 +1140,8 @@
       "homeTeamName": "United States",
       "awayTeamId": "BIH",
       "awayTeamName": "Bosnia-Herzegovina",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1141,7 +1151,8 @@
       "homeTeamName": "Spain",
       "awayTeamId": "AUT",
       "awayTeamName": "Austria",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1151,7 +1162,8 @@
       "homeTeamName": "Portugal",
       "awayTeamId": "CRO",
       "awayTeamName": "Croatia",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1161,7 +1173,8 @@
       "homeTeamName": "Switzerland",
       "awayTeamId": "ALG",
       "awayTeamName": "Algeria",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1171,7 +1184,8 @@
       "homeTeamName": "Australia",
       "awayTeamId": "EGY",
       "awayTeamName": "Egypt",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1181,7 +1195,8 @@
       "homeTeamName": "Argentina",
       "awayTeamId": "CPV",
       "awayTeamName": "Cape Verde Islands",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
@@ -1191,7 +1206,8 @@
       "homeTeamName": "Colombia",
       "awayTeamId": "GHA",
       "awayTeamName": "Ghana",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1201,7 +1217,8 @@
       "homeTeamName": "Canada",
       "awayTeamId": "MAR",
       "awayTeamName": "Morocco",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1211,7 +1228,8 @@
       "homeTeamName": "Paraguay",
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1221,7 +1239,8 @@
       "homeTeamName": "Brazil",
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1231,7 +1250,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1241,7 +1261,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1251,7 +1272,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1261,7 +1283,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_16",
@@ -1271,7 +1294,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "QUARTER_FINALS",
@@ -1281,7 +1305,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "QUARTER_FINALS",
@@ -1291,7 +1316,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "QUARTER_FINALS",
@@ -1301,7 +1327,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "QUARTER_FINALS",
@@ -1311,7 +1338,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "SEMI_FINALS",
@@ -1321,7 +1349,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "SEMI_FINALS",
@@ -1331,7 +1360,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "THIRD_PLACE",
@@ -1341,7 +1371,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "FINAL",
@@ -1351,7 +1382,8 @@
       "homeTeamName": null,
       "awayTeamId": null,
       "awayTeamName": null,
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     }
   ]
 }
