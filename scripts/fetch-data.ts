@@ -55,7 +55,7 @@ interface ApiMatch {
 	awayTeam: ApiTeam;
 	score: {
 		winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null;
-		duration: "REGULAR" | "EXTRA_TIME" | "PENALTY_SHOOTOUT";
+		duration?: "REGULAR" | "EXTRA_TIME" | "PENALTY_SHOOTOUT";
 		penalties: { home: number; away: number } | null;
 	};
 }
@@ -63,14 +63,17 @@ interface ApiMatch {
 function resolveWinner(
 	score: ApiMatch["score"],
 ): { winner: "HOME_TEAM" | "AWAY_TEAM" | null; decidedByPenalties: boolean } {
-	if (score.duration === "PENALTY_SHOOTOUT" && score.penalties) {
+	const isPenalties =
+		score.duration === "PENALTY_SHOOTOUT" || score.penalties !== null;
+
+	if (score.penalties) {
 		const winner =
 			score.penalties.home > score.penalties.away ? "HOME_TEAM" : "AWAY_TEAM";
 		return { winner, decidedByPenalties: true };
 	}
 	const winner =
 		score.winner === "DRAW" || score.winner === null ? null : score.winner;
-	return { winner, decidedByPenalties: false };
+	return { winner, decidedByPenalties: isPenalties };
 }
 
 interface ApiMatchesResponse {
