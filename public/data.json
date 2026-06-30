@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T18:58:09.950Z",
+  "lastUpdated": "2026-06-30T21:01:39.754Z",
   "groups": {
     "A": [
       "MEX",
@@ -413,7 +413,7 @@
       "id": "CIV",
       "name": "Ivory Coast",
       "group": "E",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -424,12 +424,7 @@
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "NOR",
-        "opponentName": "Norway",
-        "utcDate": "2026-06-30T17:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "ECU": {
       "id": "ECU",
@@ -736,12 +731,7 @@
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CIV",
-        "opponentName": "Ivory Coast",
-        "utcDate": "2026-06-30T17:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "SEN": {
       "id": "SEN",
@@ -1080,7 +1070,7 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-30T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "CIV",
       "homeTeamName": "Ivory Coast",
       "awayTeamId": "NOR",
