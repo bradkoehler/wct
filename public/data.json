@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T16:36:52.989Z",
+  "lastUpdated": "2026-06-30T18:58:09.950Z",
   "groups": {
     "A": [
       "MEX",
@@ -1080,12 +1080,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-30T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "CIV",
       "homeTeamName": "Ivory Coast",
       "awayTeamId": "NOR",
       "awayTeamName": "Norway",
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "decidedByPenalties": true
     },
     {
