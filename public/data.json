@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:01:39.754Z",
+  "lastUpdated": "2026-06-30T22:50:22.311Z",
   "groups": {
     "A": [
       "MEX",
@@ -1081,12 +1081,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "SWE",
       "awayTeamName": "Sweden",
-      "winner": null,
+      "winner": "HOME_TEAM",
       "decidedByPenalties": true
     },
     {
