@@ -55,7 +55,22 @@ interface ApiMatch {
 	awayTeam: ApiTeam;
 	score: {
 		winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null;
+		duration: "REGULAR" | "EXTRA_TIME" | "PENALTY_SHOOTOUT";
+		penalties: { home: number; away: number } | null;
 	};
+}
+
+function resolveWinner(
+	score: ApiMatch["score"],
+): { winner: "HOME_TEAM" | "AWAY_TEAM" | null; decidedByPenalties: boolean } {
+	if (score.duration === "PENALTY_SHOOTOUT" && score.penalties) {
+		const winner =
+			score.penalties.home > score.penalties.away ? "HOME_TEAM" : "AWAY_TEAM";
+		return { winner, decidedByPenalties: true };
+	}
+	const winner =
+		score.winner === "DRAW" || score.winner === null ? null : score.winner;
+	return { winner, decidedByPenalties: false };
 }
 
 interface ApiMatchesResponse {
@@ -85,14 +100,15 @@ function deriveTeamStatus(tla: string, matches: ApiMatch[]): TeamStatus {
 	const final = knockoutMatches.find((match) => match.stage === "FINAL");
 	if (final) {
 		const isHome = final.homeTeam.tla === tla;
-		const won = final.score.winner === (isHome ? "HOME_TEAM" : "AWAY_TEAM");
-		if (won) return "champion";
+		const { winner } = resolveWinner(final.score);
+		if (winner === (isHome ? "HOME_TEAM" : "AWAY_TEAM")) return "champion";
 	}
 
 	const lostKnockoutMatch = knockoutMatches.find((match) => {
 		const isHome = match.homeTeam.tla === tla;
 		const lostOutcome = isHome ? "AWAY_TEAM" : "HOME_TEAM";
-		return match.score.winner === lostOutcome;
+		const { winner } = resolveWinner(match.score);
+		return winner === lostOutcome;
 	});
 
 	if (lostKnockoutMatch) return "knocked_out";
@@ -187,16 +203,20 @@ async function main() {
 		.sort(
 			(a, b) => new Date(a.utcDate).getTime() - new Date(b.utcDate).getTime(),
 		)
-		.map((m) => ({
-			stage: m.stage as KnockoutMatch["stage"],
-			utcDate: m.utcDate,
-			status: m.status,
-			homeTeamId: m.homeTeam.tla || null,
-			homeTeamName: m.homeTeam.name || null,
-			awayTeamId: m.awayTeam.tla || null,
-			awayTeamName: m.awayTeam.name || null,
-			winner: m.score.winner ?? null,
-		}));
+		.map((m) => {
+			const { winner, decidedByPenalties } = resolveWinner(m.score);
+			return {
+				stage: m.stage as KnockoutMatch["stage"],
+				utcDate: m.utcDate,
+				status: m.status,
+				homeTeamId: m.homeTeam.tla || null,
+				homeTeamName: m.homeTeam.name || null,
+				awayTeamId: m.awayTeam.tla || null,
+				awayTeamName: m.awayTeam.name || null,
+				winner,
+				...(decidedByPenalties && { decidedByPenalties: true }),
+			};
+		});
 
 	const data: TournamentData = {
 		lastUpdated: new Date().toISOString(),

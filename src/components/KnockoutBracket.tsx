@@ -25,12 +25,14 @@ function TeamRow({
 	owner,
 	won,
 	lost,
+	penWinner,
 }: {
 	teamId: string | null;
 	teamName: string | null;
 	owner: string | undefined;
 	won: boolean;
 	lost: boolean;
+	penWinner?: boolean;
 }) {
 	if (!teamId) {
 		return (
@@ -60,6 +62,9 @@ function TeamRow({
 				/>
 			)}
 			<span className="flex-1">{teamName ?? teamId}</span>
+			{penWinner && (
+				<span className="rounded bg-gray-100 px-1 text-xs text-gray-500">pen</span>
+			)}
 			{owner && (
 				<span className={`text-xs ${lost ? "text-gray-400" : "text-gray-500"}`}>
 					{owner}
@@ -116,6 +121,7 @@ function MatchCard({
 
 	const homeWon = match.winner === "HOME_TEAM";
 	const awayWon = match.winner === "AWAY_TEAM";
+	const pen = match.decidedByPenalties ?? false;
 
 	return (
 		<div
@@ -131,6 +137,7 @@ function MatchCard({
 						owner={homeOwner}
 						won={homeWon}
 						lost={!homeWon && match.winner !== null}
+						penWinner={pen && homeWon}
 					/>
 					<div className="my-1 border-t border-gray-100" />
 					<TeamRow
@@ -139,6 +146,7 @@ function MatchCard({
 						owner={awayOwner}
 						won={awayWon}
 						lost={!awayWon && match.winner !== null}
+						penWinner={pen && awayWon}
 					/>
 				</>
 			) : (

@@ -41,7 +41,8 @@ export interface KnockoutMatch {
 	homeTeamName: string | null;
 	awayTeamId: string | null;
 	awayTeamName: string | null;
-	winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null;
+	winner: "HOME_TEAM" | "AWAY_TEAM" | null;
+	decidedByPenalties?: boolean;
 }
 
 export interface TournamentData {
