@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T23:00:18.257Z",
+  "lastUpdated": "2026-06-30T00:16:05.230Z",
   "groups": {
     "A": [
       "MEX",
@@ -363,12 +363,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "GER",
-        "opponentName": "Germany",
-        "utcDate": "2026-06-29T20:30:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "TUR": {
       "id": "TUR",
@@ -402,12 +397,7 @@
         "points": 6,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "PAR",
-        "opponentName": "Paraguay",
-        "utcDate": "2026-06-29T20:30:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "CIV": {
       "id": "CIV",
@@ -1061,12 +1051,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "homeTeamId": "GER",
       "homeTeamName": "Germany",
       "awayTeamId": "PAR",
       "awayTeamName": "Paraguay",
-      "winner": "HOME_TEAM"
+      "winner": null
     },
     {
       "stage": "LAST_32",
