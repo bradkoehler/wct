@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T00:07:08.416Z",
+  "lastUpdated": "2026-07-01T05:06:09.798Z",
   "groups": {
     "A": [
       "MEX",
@@ -90,12 +90,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ECU",
-        "opponentName": "Ecuador",
-        "utcDate": "2026-07-01T01:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "RSA": {
       "id": "RSA",
@@ -430,7 +425,7 @@
       "id": "ECU",
       "name": "Ecuador",
       "group": "E",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -441,12 +436,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "MEX",
-        "opponentName": "Mexico",
-        "utcDate": "2026-07-01T01:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "CUW": {
       "id": "CUW",
@@ -1082,12 +1072,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "homeTeamId": "MEX",
       "homeTeamName": "Mexico",
       "awayTeamId": "ECU",
       "awayTeamName": "Ecuador",
-      "winner": null,
+      "winner": "HOME_TEAM",
       "decidedByPenalties": true
     },
     {
