@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T17:28:56.591Z",
+  "lastUpdated": "2026-07-01T19:20:24.554Z",
   "groups": {
     "A": [
       "MEX",
@@ -893,7 +893,7 @@
       "id": "COD",
       "name": "Congo DR",
       "group": "K",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -904,12 +904,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-07-01T16:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "UZB": {
       "id": "UZB",
@@ -943,12 +938,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "COD",
-        "opponentName": "Congo DR",
-        "utcDate": "2026-07-01T16:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "CRO": {
       "id": "CRO",
@@ -1088,12 +1078,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-01T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "ENG",
       "homeTeamName": "England",
       "awayTeamId": "COD",
       "awayTeamName": "Congo DR",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
