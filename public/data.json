@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T22:50:22.311Z",
+  "lastUpdated": "2026-07-01T00:07:08.416Z",
   "groups": {
     "A": [
       "MEX",
@@ -503,7 +503,7 @@
       "id": "SWE",
       "name": "Sweden",
       "group": "F",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -514,12 +514,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-06-30T21:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "TUN": {
       "id": "TUN",
@@ -709,12 +704,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "SWE",
-        "opponentName": "Sweden",
-        "utcDate": "2026-06-30T21:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "NOR": {
       "id": "NOR",
@@ -1081,7 +1071,7 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "SWE",
