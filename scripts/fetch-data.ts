@@ -63,10 +63,9 @@ interface ApiMatch {
 function resolveWinner(
 	score: ApiMatch["score"],
 ): { winner: "HOME_TEAM" | "AWAY_TEAM" | null; decidedByPenalties: boolean } {
-	const isPenalties =
-		score.duration === "PENALTY_SHOOTOUT" || score.penalties !== null;
+	const isPenalties = score.duration === "PENALTY_SHOOTOUT";
 
-	if (score.penalties) {
+	if (isPenalties && score.penalties && score.penalties.home !== score.penalties.away) {
 		const winner =
 			score.penalties.home > score.penalties.away ? "HOME_TEAM" : "AWAY_TEAM";
 		return { winner, decidedByPenalties: true };
