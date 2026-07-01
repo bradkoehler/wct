@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T19:20:24.554Z",
+  "lastUpdated": "2026-07-01T21:07:02.091Z",
   "groups": {
     "A": [
       "MEX",
@@ -1088,12 +1088,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "homeTeamId": "BEL",
       "homeTeamName": "Belgium",
       "awayTeamId": "SEN",
       "awayTeamName": "Senegal",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_32",
