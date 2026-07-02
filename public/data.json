@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T04:40:39.084Z",
+  "lastUpdated": "2026-07-02T08:12:37.828Z",
   "groups": {
     "A": [
       "MEX",
@@ -90,7 +90,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "ENG",
+        "opponentName": "England",
+        "utcDate": "2026-07-06T00:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "RSA": {
       "id": "RSA",
@@ -314,7 +319,12 @@
         "points": 6,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "BEL",
+        "opponentName": "Belgium",
+        "utcDate": "2026-07-07T00:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "AUS": {
       "id": "AUS",
@@ -528,7 +538,12 @@
         "points": 5,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "USA",
+        "opponentName": "United States",
+        "utcDate": "2026-07-07T00:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "EGY": {
       "id": "EGY",
@@ -918,7 +933,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "MEX",
+        "opponentName": "Mexico",
+        "utcDate": "2026-07-06T00:00:00Z",
+        "stage": "LAST_16"
+      }
     },
     "CRO": {
       "id": "CRO",
@@ -1179,10 +1199,10 @@
       "stage": "LAST_16",
       "utcDate": "2026-07-06T00:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "MEX",
+      "homeTeamName": "Mexico",
+      "awayTeamId": "ENG",
+      "awayTeamName": "England",
       "winner": null
     },
     {
@@ -1199,10 +1219,10 @@
       "stage": "LAST_16",
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "USA",
+      "homeTeamName": "United States",
+      "awayTeamId": "BEL",
+      "awayTeamName": "Belgium",
       "winner": null
     },
     {
