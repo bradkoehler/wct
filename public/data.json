@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T19:27:02.132Z",
+  "lastUpdated": "2026-07-02T20:43:02.931Z",
   "groups": {
     "A": [
       "MEX",
@@ -1108,12 +1108,12 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "AUT",
       "awayTeamName": "Austria",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
