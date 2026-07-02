@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:47:41.878Z",
+  "lastUpdated": "2026-07-02T00:09:53.196Z",
   "groups": {
     "A": [
       "MEX",
@@ -538,12 +538,7 @@
         "points": 5,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "SEN",
-        "opponentName": "Senegal",
-        "utcDate": "2026-07-01T20:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "EGY": {
       "id": "EGY",
@@ -727,7 +722,7 @@
       "id": "SEN",
       "name": "Senegal",
       "group": "I",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -738,12 +733,7 @@
         "points": 3,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "BEL",
-        "opponentName": "Belgium",
-        "utcDate": "2026-07-01T20:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "IRQ": {
       "id": "IRQ",
@@ -1088,17 +1078,17 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "homeTeamId": "BEL",
       "homeTeamName": "Belgium",
       "awayTeamId": "SEN",
       "awayTeamName": "Senegal",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "USA",
       "homeTeamName": "United States",
       "awayTeamId": "BIH",
