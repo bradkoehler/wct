@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T20:43:02.931Z",
+  "lastUpdated": "2026-07-02T22:08:56.347Z",
   "groups": {
     "A": [
       "MEX",
@@ -616,12 +616,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "AUT",
-        "opponentName": "Austria",
-        "utcDate": "2026-07-02T19:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
@@ -783,7 +778,7 @@
       "id": "AUT",
       "name": "Austria",
       "group": "J",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -794,12 +789,7 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-07-02T19:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "ALG": {
       "id": "ALG",
@@ -1108,7 +1098,7 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "AUT",
