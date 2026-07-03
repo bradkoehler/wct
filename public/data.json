@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:38:13.962Z",
+  "lastUpdated": "2026-07-03T03:27:37.731Z",
   "groups": {
     "A": [
       "MEX",
@@ -867,12 +867,7 @@
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CRO",
-        "opponentName": "Croatia",
-        "utcDate": "2026-07-02T23:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "COD": {
       "id": "COD",
@@ -934,7 +929,7 @@
       "id": "CRO",
       "name": "Croatia",
       "group": "L",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -945,12 +940,7 @@
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "POR",
-        "opponentName": "Portugal",
-        "utcDate": "2026-07-02T23:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "GHA": {
       "id": "GHA",
@@ -1108,22 +1098,22 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "POR",
       "homeTeamName": "Portugal",
       "awayTeamId": "CRO",
       "awayTeamName": "Croatia",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "SUI",
       "homeTeamName": "Switzerland",
       "awayTeamId": "ALG",
       "awayTeamName": "Algeria",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
