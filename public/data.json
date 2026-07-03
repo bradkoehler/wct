@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T19:41:31.029Z",
+  "lastUpdated": "2026-07-03T21:09:22.868Z",
   "groups": {
     "A": [
       "MEX",
@@ -336,12 +336,7 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "EGY",
-        "opponentName": "Egypt",
-        "utcDate": "2026-07-03T18:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "PAR": {
       "id": "PAR",
@@ -555,12 +550,7 @@
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "AUS",
-        "opponentName": "Australia",
-        "utcDate": "2026-07-03T18:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "IRN": {
       "id": "IRN",
@@ -1108,12 +1098,13 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "AUS",
       "homeTeamName": "Australia",
       "awayTeamId": "EGY",
       "awayTeamName": "Egypt",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "LAST_32",
