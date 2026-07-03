@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T17:58:02.827Z",
+  "lastUpdated": "2026-07-03T19:41:31.029Z",
   "groups": {
     "A": [
       "MEX",
@@ -1108,7 +1108,7 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "AUS",
       "homeTeamName": "Australia",
       "awayTeamId": "EGY",
