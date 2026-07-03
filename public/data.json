@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T03:27:37.731Z",
+  "lastUpdated": "2026-07-03T06:48:39.972Z",
   "groups": {
     "A": [
       "MEX",
@@ -163,12 +163,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ALG",
-        "opponentName": "Algeria",
-        "utcDate": "2026-07-03T03:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "CAN": {
       "id": "CAN",
@@ -795,7 +790,7 @@
       "id": "ALG",
       "name": "Algeria",
       "group": "J",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -806,12 +801,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "SUI",
-        "opponentName": "Switzerland",
-        "utcDate": "2026-07-03T03:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "JOR": {
       "id": "JOR",
@@ -1108,7 +1098,7 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "SUI",
       "homeTeamName": "Switzerland",
       "awayTeamId": "ALG",
