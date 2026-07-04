@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T18:03:02.757Z",
+  "lastUpdated": "2026-07-04T19:44:57.177Z",
   "groups": {
     "A": [
       "MEX",
@@ -174,7 +174,7 @@
       "id": "CAN",
       "name": "Canada",
       "group": "B",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -185,12 +185,7 @@
         "points": 4,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "MAR",
-        "opponentName": "Morocco",
-        "utcDate": "2026-07-04T17:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "BIH": {
       "id": "BIH",
@@ -263,12 +258,7 @@
         "points": 7,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "CAN",
-        "opponentName": "Canada",
-        "utcDate": "2026-07-04T17:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "SCO": {
       "id": "SCO",
@@ -1139,12 +1129,12 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "homeTeamId": "CAN",
       "homeTeamName": "Canada",
       "awayTeamId": "MAR",
       "awayTeamName": "Morocco",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_16",
