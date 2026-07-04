@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T00:06:17.895Z",
+  "lastUpdated": "2026-07-04T04:12:13.449Z",
   "groups": {
     "A": [
       "MEX",
@@ -607,7 +607,7 @@
       "id": "CPV",
       "name": "Cape Verde Islands",
       "group": "H",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 0,
@@ -618,12 +618,7 @@
         "points": 3,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "ARG",
-        "opponentName": "Argentina",
-        "utcDate": "2026-07-03T22:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "URU": {
       "id": "URU",
@@ -752,12 +747,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "CPV",
-        "opponentName": "Cape Verde Islands",
-        "utcDate": "2026-07-03T22:00:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "AUT": {
       "id": "AUT",
@@ -825,12 +815,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "GHA",
-        "opponentName": "Ghana",
-        "utcDate": "2026-07-04T01:30:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "POR": {
       "id": "POR",
@@ -926,7 +911,7 @@
       "id": "GHA",
       "name": "Ghana",
       "group": "L",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -937,12 +922,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "COL",
-        "opponentName": "Colombia",
-        "utcDate": "2026-07-04T01:30:00Z",
-        "stage": "LAST_32"
-      }
+      "nextFixture": null
     },
     "PAN": {
       "id": "PAN",
@@ -1109,22 +1089,22 @@
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "homeTeamId": "ARG",
       "homeTeamName": "Argentina",
       "awayTeamId": "CPV",
       "awayTeamName": "Cape Verde Islands",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_32",
       "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "homeTeamId": "COL",
       "homeTeamName": "Colombia",
       "awayTeamId": "GHA",
       "awayTeamName": "Ghana",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_16",
