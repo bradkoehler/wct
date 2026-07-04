@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:06:25.005Z",
+  "lastUpdated": "2026-07-04T23:31:56.822Z",
   "groups": {
     "A": [
       "MEX",
@@ -337,7 +337,7 @@
       "id": "PAR",
       "name": "Paraguay",
       "group": "D",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -348,12 +348,7 @@
         "points": 4,
         "groupPosition": 3
       },
-      "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-07-04T21:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "TUR": {
       "id": "TUR",
@@ -674,12 +669,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "PAR",
-        "opponentName": "Paraguay",
-        "utcDate": "2026-07-04T21:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "NOR": {
       "id": "NOR",
@@ -1139,12 +1129,12 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "homeTeamId": "PAR",
       "homeTeamName": "Paraguay",
       "awayTeamId": "FRA",
       "awayTeamName": "France",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_16",
