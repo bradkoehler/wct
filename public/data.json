@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T03:36:45.544Z",
+  "lastUpdated": "2026-07-05T07:28:38.559Z",
   "groups": {
     "A": [
       "MEX",
@@ -258,7 +258,12 @@
         "points": 7,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "FRA",
+        "opponentName": "France",
+        "utcDate": "2026-07-09T20:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "SCO": {
       "id": "SCO",
@@ -669,7 +674,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "MAR",
+        "opponentName": "Morocco",
+        "utcDate": "2026-07-09T20:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "NOR": {
       "id": "NOR",
@@ -1200,10 +1210,10 @@
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-09T20:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "FRA",
+      "homeTeamName": "France",
+      "awayTeamId": "MAR",
+      "awayTeamName": "Morocco",
       "winner": null
     },
     {
