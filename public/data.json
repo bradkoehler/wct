@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T18:56:06.271Z",
+  "lastUpdated": "2026-07-06T20:54:05.963Z",
   "groups": {
     "A": [
       "MEX",
@@ -1159,7 +1159,7 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "POR",
       "homeTeamName": "Portugal",
       "awayTeamId": "ESP",
