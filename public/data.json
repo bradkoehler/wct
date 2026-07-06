@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T22:32:04.462Z",
+  "lastUpdated": "2026-07-06T00:08:20.354Z",
   "groups": {
     "A": [
       "MEX",
@@ -93,7 +93,7 @@
       "nextFixture": {
         "opponentId": "ENG",
         "opponentName": "England",
-        "utcDate": "2026-07-06T00:00:00Z",
+        "utcDate": "2026-07-06T01:00:00Z",
         "stage": "LAST_16"
       }
     },
@@ -896,7 +896,7 @@
       "nextFixture": {
         "opponentId": "MEX",
         "opponentName": "Mexico",
-        "utcDate": "2026-07-06T00:00:00Z",
+        "utcDate": "2026-07-06T01:00:00Z",
         "stage": "LAST_16"
       }
     },
@@ -1148,8 +1148,8 @@
     },
     {
       "stage": "LAST_16",
-      "utcDate": "2026-07-06T00:00:00Z",
-      "status": "TIMED",
+      "utcDate": "2026-07-06T01:00:00Z",
+      "status": "2026-07-06 01:00:00Z",
       "homeTeamId": "MEX",
       "homeTeamName": "Mexico",
       "awayTeamId": "ENG",
