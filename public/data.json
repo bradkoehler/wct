@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T04:52:02.490Z",
+  "lastUpdated": "2026-07-06T09:00:49.057Z",
   "groups": {
     "A": [
       "MEX",
@@ -686,7 +686,12 @@
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "ENG",
+        "opponentName": "England",
+        "utcDate": "2026-07-11T21:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "SEN": {
       "id": "SEN",
@@ -888,7 +893,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "NOR",
+        "opponentName": "Norway",
+        "utcDate": "2026-07-11T21:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "CRO": {
       "id": "CRO",
@@ -1210,10 +1220,10 @@
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-11T21:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "NOR",
+      "homeTeamName": "Norway",
+      "awayTeamId": "ENG",
+      "awayTeamName": "England",
       "winner": null
     },
     {
