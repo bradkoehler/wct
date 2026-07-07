@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T23:38:09.695Z",
+  "lastUpdated": "2026-07-07T03:35:29.060Z",
   "groups": {
     "A": [
       "MEX",
@@ -293,7 +293,7 @@
       "id": "USA",
       "name": "United States",
       "group": "D",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -304,12 +304,7 @@
         "points": 6,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "BEL",
-        "opponentName": "Belgium",
-        "utcDate": "2026-07-07T00:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "AUS": {
       "id": "AUS",
@@ -513,12 +508,7 @@
         "points": 5,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "USA",
-        "opponentName": "United States",
-        "utcDate": "2026-07-07T00:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "EGY": {
       "id": "EGY",
@@ -1159,12 +1149,12 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "homeTeamId": "USA",
       "homeTeamName": "United States",
       "awayTeamId": "BEL",
       "awayTeamName": "Belgium",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_16",
