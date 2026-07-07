@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T13:34:24.395Z",
+  "lastUpdated": "2026-07-07T16:33:01.814Z",
   "groups": {
     "A": [
       "MEX",
@@ -1169,12 +1169,12 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-07T16:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "homeTeamId": "ARG",
       "homeTeamName": "Argentina",
       "awayTeamId": "EGY",
       "awayTeamName": "Egypt",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "LAST_16",
