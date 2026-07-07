@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T22:37:49.042Z",
+  "lastUpdated": "2026-07-07T23:59:09.813Z",
   "groups": {
     "A": [
       "MEX",
@@ -158,12 +158,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "COL",
-        "opponentName": "Colombia",
-        "utcDate": "2026-07-07T20:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "CAN": {
       "id": "CAN",
@@ -800,12 +795,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "SUI",
-        "opponentName": "Switzerland",
-        "utcDate": "2026-07-07T20:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "POR": {
       "id": "POR",
@@ -1169,12 +1159,13 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "SUI",
       "homeTeamName": "Switzerland",
       "awayTeamId": "COL",
       "awayTeamName": "Colombia",
-      "winner": null
+      "winner": null,
+      "decidedByPenalties": true
     },
     {
       "stage": "QUARTER_FINALS",
