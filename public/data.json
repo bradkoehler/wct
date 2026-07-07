@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T16:33:01.814Z",
+  "lastUpdated": "2026-07-07T19:04:14.952Z",
   "groups": {
     "A": [
       "MEX",
@@ -519,7 +519,7 @@
       "id": "EGY",
       "name": "Egypt",
       "group": "G",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -530,12 +530,7 @@
         "points": 5,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "ARG",
-        "opponentName": "Argentina",
-        "utcDate": "2026-07-07T16:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "IRN": {
       "id": "IRN",
@@ -737,12 +732,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "EGY",
-        "opponentName": "Egypt",
-        "utcDate": "2026-07-07T16:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "AUT": {
       "id": "AUT",
@@ -1169,12 +1159,12 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-07T16:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeTeamId": "ARG",
       "homeTeamName": "Argentina",
       "awayTeamId": "EGY",
       "awayTeamName": "Egypt",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "LAST_16",
