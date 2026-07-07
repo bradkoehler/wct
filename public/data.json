@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T03:35:29.060Z",
+  "lastUpdated": "2026-07-07T07:41:07.022Z",
   "groups": {
     "A": [
       "MEX",
@@ -508,7 +508,12 @@
         "points": 5,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "ESP",
+        "opponentName": "Spain",
+        "utcDate": "2026-07-10T19:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "EGY": {
       "id": "EGY",
@@ -581,7 +586,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "BEL",
+        "opponentName": "Belgium",
+        "utcDate": "2026-07-10T19:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "CPV": {
       "id": "CPV",
@@ -1190,10 +1200,10 @@
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-10T19:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "ESP",
+      "homeTeamName": "Spain",
+      "awayTeamId": "BEL",
+      "awayTeamName": "Belgium",
       "winner": null
     },
     {
