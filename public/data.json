@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T21:06:11.592Z",
+  "lastUpdated": "2026-07-07T22:37:49.042Z",
   "groups": {
     "A": [
       "MEX",
@@ -1169,7 +1169,7 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "homeTeamId": "SUI",
       "homeTeamName": "Switzerland",
       "awayTeamId": "COL",
