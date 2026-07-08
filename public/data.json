@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T03:36:05.419Z",
+  "lastUpdated": "2026-07-08T06:29:55.880Z",
   "groups": {
     "A": [
       "MEX",
@@ -158,7 +158,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "ARG",
+        "opponentName": "Argentina",
+        "utcDate": "2026-07-12T01:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "CAN": {
       "id": "CAN",
@@ -727,7 +732,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "SUI",
+        "opponentName": "Switzerland",
+        "utcDate": "2026-07-12T01:00:00Z",
+        "stage": "QUARTER_FINALS"
+      }
     },
     "AUT": {
       "id": "AUT",
@@ -784,7 +794,7 @@
       "id": "COL",
       "name": "Colombia",
       "group": "K",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -1164,7 +1174,7 @@
       "homeTeamName": "Switzerland",
       "awayTeamId": "COL",
       "awayTeamName": "Colombia",
-      "winner": null,
+      "winner": "HOME_TEAM",
       "decidedByPenalties": true
     },
     {
@@ -1201,10 +1211,10 @@
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-12T01:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "ARG",
+      "homeTeamName": "Argentina",
+      "awayTeamId": "SUI",
+      "awayTeamName": "Switzerland",
       "winner": null
     },
     {
