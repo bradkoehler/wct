@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T18:20:10.255Z",
+  "lastUpdated": "2026-07-09T20:20:12.589Z",
   "groups": {
     "A": [
       "MEX",
@@ -1180,7 +1180,7 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "MAR",
