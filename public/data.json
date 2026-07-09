@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T21:58:59.131Z",
+  "lastUpdated": "2026-07-09T23:21:02.773Z",
   "groups": {
     "A": [
       "MEX",
@@ -237,7 +237,7 @@
       "id": "MAR",
       "name": "Morocco",
       "group": "C",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -248,12 +248,7 @@
         "points": 7,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-07-09T20:00:00Z",
-        "stage": "QUARTER_FINALS"
-      }
+      "nextFixture": null
     },
     "SCO": {
       "id": "SCO",
@@ -654,12 +649,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "MAR",
-        "opponentName": "Morocco",
-        "utcDate": "2026-07-09T20:00:00Z",
-        "stage": "QUARTER_FINALS"
-      }
+      "nextFixture": null
     },
     "NOR": {
       "id": "NOR",
@@ -1180,7 +1170,7 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "MAR",
