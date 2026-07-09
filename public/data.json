@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:20:12.589Z",
+  "lastUpdated": "2026-07-09T21:58:59.131Z",
   "groups": {
     "A": [
       "MEX",
@@ -1185,7 +1185,7 @@
       "homeTeamName": "France",
       "awayTeamId": "MAR",
       "awayTeamName": "Morocco",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "QUARTER_FINALS",
