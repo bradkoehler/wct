@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T20:50:10.466Z",
+  "lastUpdated": "2026-07-10T22:05:39.703Z",
   "groups": {
     "A": [
       "MEX",
@@ -492,7 +492,7 @@
       "id": "BEL",
       "name": "Belgium",
       "group": "G",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 1,
@@ -503,12 +503,7 @@
         "points": 5,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-07-10T19:00:00Z",
-        "stage": "QUARTER_FINALS"
-      }
+      "nextFixture": null
     },
     "EGY": {
       "id": "EGY",
@@ -576,12 +571,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "BEL",
-        "opponentName": "Belgium",
-        "utcDate": "2026-07-10T19:00:00Z",
-        "stage": "QUARTER_FINALS"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
@@ -1185,12 +1175,12 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "BEL",
       "awayTeamName": "Belgium",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "QUARTER_FINALS",
