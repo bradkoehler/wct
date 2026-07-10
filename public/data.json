@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T19:01:34.684Z",
+  "lastUpdated": "2026-07-10T20:50:10.466Z",
   "groups": {
     "A": [
       "MEX",
@@ -1185,7 +1185,7 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "BEL",
