@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T05:37:00.218Z",
+  "lastUpdated": "2026-07-10T09:38:36.541Z",
   "groups": {
     "A": [
       "MEX",
@@ -649,7 +649,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-14T19:00:00Z",
+        "stage": "SEMI_FINALS"
+      }
     },
     "NOR": {
       "id": "NOR",
@@ -1211,8 +1216,8 @@
       "stage": "SEMI_FINALS",
       "utcDate": "2026-07-14T19:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
+      "homeTeamId": "FRA",
+      "homeTeamName": "France",
       "awayTeamId": null,
       "awayTeamName": null,
       "winner": null
