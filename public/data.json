@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T22:51:18.568Z",
+  "lastUpdated": "2026-07-11T23:57:00.767Z",
   "groups": {
     "A": [
       "MEX",
@@ -660,7 +660,7 @@
       "id": "NOR",
       "name": "Norway",
       "group": "I",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -671,12 +671,7 @@
         "points": 6,
         "groupPosition": 2
       },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-07-11T21:00:00Z",
-        "stage": "QUARTER_FINALS"
-      }
+      "nextFixture": null
     },
     "SEN": {
       "id": "SEN",
@@ -1195,12 +1190,12 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-11T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "NOR",
       "homeTeamName": "Norway",
       "awayTeamId": "ENG",
       "awayTeamName": "England",
-      "winner": "HOME_TEAM"
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "QUARTER_FINALS",
