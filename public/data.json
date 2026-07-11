@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T04:42:19.518Z",
+  "lastUpdated": "2026-07-11T07:11:55.508Z",
   "groups": {
     "A": [
       "MEX",
@@ -571,7 +571,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "FRA",
+        "opponentName": "France",
+        "utcDate": "2026-07-14T19:00:00Z",
+        "stage": "SEMI_FINALS"
+      }
     },
     "CPV": {
       "id": "CPV",
@@ -640,8 +645,8 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": null,
-        "opponentName": null,
+        "opponentId": "ESP",
+        "opponentName": "Spain",
         "utcDate": "2026-07-14T19:00:00Z",
         "stage": "SEMI_FINALS"
       }
@@ -1208,8 +1213,8 @@
       "status": "TIMED",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "awayTeamId": "ESP",
+      "awayTeamName": "Spain",
       "winner": null
     },
     {
