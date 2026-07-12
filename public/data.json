@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T23:57:00.767Z",
+  "lastUpdated": "2026-07-12T03:34:11.575Z",
   "groups": {
     "A": [
       "MEX",
@@ -1200,7 +1200,7 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "ARG",
       "homeTeamName": "Argentina",
       "awayTeamId": "SUI",
