@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T03:34:11.575Z",
+  "lastUpdated": "2026-07-12T06:34:37.338Z",
   "groups": {
     "A": [
       "MEX",
@@ -79,7 +79,7 @@
       "id": "MEX",
       "name": "Mexico",
       "group": "A",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 3,
@@ -90,12 +90,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-07-06T01:00:00Z",
-        "stage": "LAST_16"
-      }
+      "nextFixture": null
     },
     "RSA": {
       "id": "RSA",
@@ -152,7 +147,7 @@
       "id": "SUI",
       "name": "Switzerland",
       "group": "B",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -163,12 +158,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ARG",
-        "opponentName": "Argentina",
-        "utcDate": "2026-07-12T01:00:00Z",
-        "stage": "QUARTER_FINALS"
-      }
+      "nextFixture": null
     },
     "CAN": {
       "id": "CAN",
@@ -723,10 +713,10 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "SUI",
-        "opponentName": "Switzerland",
-        "utcDate": "2026-07-12T01:00:00Z",
-        "stage": "QUARTER_FINALS"
+        "opponentId": "ENG",
+        "opponentName": "England",
+        "utcDate": "2026-07-15T19:00:00Z",
+        "stage": "SEMI_FINALS"
       }
     },
     "AUT": {
@@ -864,10 +854,10 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": "MEX",
-        "opponentName": "Mexico",
-        "utcDate": "2026-07-06T01:00:00Z",
-        "stage": "LAST_16"
+        "opponentId": "ARG",
+        "opponentName": "Argentina",
+        "utcDate": "2026-07-15T19:00:00Z",
+        "stage": "SEMI_FINALS"
       }
     },
     "CRO": {
@@ -1119,7 +1109,7 @@
     {
       "stage": "LAST_16",
       "utcDate": "2026-07-06T01:00:00Z",
-      "status": "2026-07-06 01:00:00Z",
+      "status": "FINISHED",
       "homeTeamId": "MEX",
       "homeTeamName": "Mexico",
       "awayTeamId": "ENG",
@@ -1200,12 +1190,12 @@
     {
       "stage": "QUARTER_FINALS",
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "ARG",
       "homeTeamName": "Argentina",
       "awayTeamId": "SUI",
       "awayTeamName": "Switzerland",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "SEMI_FINALS",
@@ -1221,10 +1211,10 @@
       "stage": "SEMI_FINALS",
       "utcDate": "2026-07-15T19:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "homeTeamId": "ENG",
+      "homeTeamName": "England",
+      "awayTeamId": "ARG",
+      "awayTeamName": "Argentina",
       "winner": null
     },
     {
