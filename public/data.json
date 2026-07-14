@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T18:39:39.207Z",
+  "lastUpdated": "2026-07-14T20:13:45.607Z",
   "groups": {
     "A": [
       "MEX",
@@ -1200,12 +1200,12 @@
     {
       "stage": "SEMI_FINALS",
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "ESP",
       "awayTeamName": "Spain",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "SEMI_FINALS",
