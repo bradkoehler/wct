@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T20:13:45.607Z",
+  "lastUpdated": "2026-07-14T21:31:08.038Z",
   "groups": {
     "A": [
       "MEX",
@@ -566,12 +566,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-07-14T19:00:00Z",
-        "stage": "SEMI_FINALS"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
@@ -628,7 +623,7 @@
       "id": "FRA",
       "name": "France",
       "group": "I",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 3,
@@ -639,12 +634,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-07-14T19:00:00Z",
-        "stage": "SEMI_FINALS"
-      }
+      "nextFixture": null
     },
     "NOR": {
       "id": "NOR",
@@ -1200,7 +1190,7 @@
     {
       "stage": "SEMI_FINALS",
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "ESP",
