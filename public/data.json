@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T05:53:29.487Z",
+  "lastUpdated": "2026-07-15T08:14:33.818Z",
   "groups": {
     "A": [
       "MEX",
@@ -566,7 +566,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-19T19:00:00Z",
+        "stage": "FINAL"
+      }
     },
     "CPV": {
       "id": "CPV",
@@ -634,7 +639,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": null,
+        "opponentName": null,
+        "utcDate": "2026-07-18T21:00:00Z",
+        "stage": "THIRD_PLACE"
+      }
     },
     "NOR": {
       "id": "NOR",
@@ -1211,8 +1221,8 @@
       "stage": "THIRD_PLACE",
       "utcDate": "2026-07-18T21:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
+      "homeTeamId": "FRA",
+      "homeTeamName": "France",
       "awayTeamId": null,
       "awayTeamName": null,
       "winner": null
@@ -1221,8 +1231,8 @@
       "stage": "FINAL",
       "utcDate": "2026-07-19T19:00:00Z",
       "status": "TIMED",
-      "homeTeamId": null,
-      "homeTeamName": null,
+      "homeTeamId": "ESP",
+      "homeTeamName": "Spain",
       "awayTeamId": null,
       "awayTeamName": null,
       "winner": null
