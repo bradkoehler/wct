@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T19:14:16.759Z",
+  "lastUpdated": "2026-07-15T20:34:32.737Z",
   "groups": {
     "A": [
       "MEX",
@@ -1215,7 +1215,7 @@
       "homeTeamName": "England",
       "awayTeamId": "ARG",
       "awayTeamName": "Argentina",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "stage": "THIRD_PLACE",
