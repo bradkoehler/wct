@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T20:34:32.737Z",
+  "lastUpdated": "2026-07-15T22:02:39.083Z",
   "groups": {
     "A": [
       "MEX",
@@ -712,12 +712,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-07-15T19:00:00Z",
-        "stage": "SEMI_FINALS"
-      }
+      "nextFixture": null
     },
     "AUT": {
       "id": "AUT",
@@ -842,7 +837,7 @@
       "id": "ENG",
       "name": "England",
       "group": "L",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 2,
@@ -853,12 +848,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ARG",
-        "opponentName": "Argentina",
-        "utcDate": "2026-07-15T19:00:00Z",
-        "stage": "SEMI_FINALS"
-      }
+      "nextFixture": null
     },
     "CRO": {
       "id": "CRO",
@@ -1210,12 +1200,12 @@
     {
       "stage": "SEMI_FINALS",
       "utcDate": "2026-07-15T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "ENG",
       "homeTeamName": "England",
       "awayTeamId": "ARG",
       "awayTeamName": "Argentina",
-      "winner": "HOME_TEAM"
+      "winner": "AWAY_TEAM"
     },
     {
       "stage": "THIRD_PLACE",
