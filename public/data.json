@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T04:39:26.396Z",
+  "lastUpdated": "2026-07-16T07:22:56.298Z",
   "groups": {
     "A": [
       "MEX",
@@ -567,8 +567,8 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": null,
-        "opponentName": null,
+        "opponentId": "ARG",
+        "opponentName": "Argentina",
         "utcDate": "2026-07-19T19:00:00Z",
         "stage": "FINAL"
       }
@@ -640,8 +640,8 @@
         "groupPosition": 1
       },
       "nextFixture": {
-        "opponentId": null,
-        "opponentName": null,
+        "opponentId": "ENG",
+        "opponentName": "England",
         "utcDate": "2026-07-18T21:00:00Z",
         "stage": "THIRD_PLACE"
       }
@@ -712,7 +712,12 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "ESP",
+        "opponentName": "Spain",
+        "utcDate": "2026-07-19T19:00:00Z",
+        "stage": "FINAL"
+      }
     },
     "AUT": {
       "id": "AUT",
@@ -848,7 +853,12 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": null
+      "nextFixture": {
+        "opponentId": "FRA",
+        "opponentName": "France",
+        "utcDate": "2026-07-18T21:00:00Z",
+        "stage": "THIRD_PLACE"
+      }
     },
     "CRO": {
       "id": "CRO",
@@ -1213,8 +1223,8 @@
       "status": "TIMED",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "awayTeamId": "ENG",
+      "awayTeamName": "England",
       "winner": null
     },
     {
@@ -1223,8 +1233,8 @@
       "status": "TIMED",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
-      "awayTeamId": null,
-      "awayTeamName": null,
+      "awayTeamId": "ARG",
+      "awayTeamName": "Argentina",
       "winner": null
     }
   ]
