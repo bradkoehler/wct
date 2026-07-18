@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:23:52.766Z",
+  "lastUpdated": "2026-07-18T23:27:35.191Z",
   "groups": {
     "A": [
       "MEX",
@@ -639,12 +639,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ENG",
-        "opponentName": "England",
-        "utcDate": "2026-07-18T21:00:00Z",
-        "stage": "THIRD_PLACE"
-      }
+      "nextFixture": null
     },
     "NOR": {
       "id": "NOR",
@@ -853,12 +848,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "FRA",
-        "opponentName": "France",
-        "utcDate": "2026-07-18T21:00:00Z",
-        "stage": "THIRD_PLACE"
-      }
+      "nextFixture": null
     },
     "CRO": {
       "id": "CRO",
@@ -1220,7 +1210,7 @@
     {
       "stage": "THIRD_PLACE",
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeTeamId": "FRA",
       "homeTeamName": "France",
       "awayTeamId": "ENG",
