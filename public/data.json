@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T21:54:37.665Z",
+  "lastUpdated": "2026-07-19T22:54:29.459Z",
   "groups": {
     "A": [
       "MEX",
@@ -555,7 +555,7 @@
       "id": "ESP",
       "name": "Spain",
       "group": "H",
-      "status": "active",
+      "status": "champion",
       "stats": {
         "played": 3,
         "won": 2,
@@ -566,12 +566,7 @@
         "points": 7,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ARG",
-        "opponentName": "Argentina",
-        "utcDate": "2026-07-19T19:00:00Z",
-        "stage": "FINAL"
-      }
+      "nextFixture": null
     },
     "CPV": {
       "id": "CPV",
@@ -696,7 +691,7 @@
       "id": "ARG",
       "name": "Argentina",
       "group": "J",
-      "status": "active",
+      "status": "knocked_out",
       "stats": {
         "played": 3,
         "won": 3,
@@ -707,12 +702,7 @@
         "points": 9,
         "groupPosition": 1
       },
-      "nextFixture": {
-        "opponentId": "ESP",
-        "opponentName": "Spain",
-        "utcDate": "2026-07-19T19:00:00Z",
-        "stage": "FINAL"
-      }
+      "nextFixture": null
     },
     "AUT": {
       "id": "AUT",
@@ -1220,7 +1210,7 @@
     {
       "stage": "FINAL",
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "ARG",
