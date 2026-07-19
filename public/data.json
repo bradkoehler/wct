@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T20:52:26.804Z",
+  "lastUpdated": "2026-07-19T21:54:37.665Z",
   "groups": {
     "A": [
       "MEX",
@@ -1220,12 +1220,12 @@
     {
       "stage": "FINAL",
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "LIVE",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "ARG",
       "awayTeamName": "Argentina",
-      "winner": null
+      "winner": "HOME_TEAM"
     }
   ]
 }
