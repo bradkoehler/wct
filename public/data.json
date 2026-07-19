@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T18:02:54.164Z",
+  "lastUpdated": "2026-07-19T19:41:14.300Z",
   "groups": {
     "A": [
       "MEX",
@@ -1220,7 +1220,7 @@
     {
       "stage": "FINAL",
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "homeTeamId": "ESP",
       "homeTeamName": "Spain",
       "awayTeamId": "ARG",
